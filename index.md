@@ -1,7 +1,7 @@
 ---
 layout: home
 title: "Welcome to My Portfolio"
-permalink: /
+# permalink: /
 ---
 
 # Hi there, I'm Yahan Yang! 👋
