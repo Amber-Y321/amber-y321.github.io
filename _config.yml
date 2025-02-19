@@ -1,0 +1,31 @@
+title: "My Portfolio"
+author: "Yahan Yang"
+description: "A portfolio showcasing my work and projects."
+remote_theme: "mmistakes/minimal-mistakes"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-archives
+
+# Optional settings
+# logo: "/assets/images/profile.png"
+baseurl: ""
+url: "https://amber-y321.github.io"
+
+# Navigation Menu
+nav:
+  - title: "Home"
+    url: /
+  - title: "About Me"
+    url: /about/
+  - title: "Projects"
+    url: /projects/
+  - title: "Contact"
+    url: /contact/
+
+# Social Links
+social:
+  github: amber-y321
+  #linkedin: your-linkedin-username
+  email: yangyahan0321@gmail.com
