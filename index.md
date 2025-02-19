@@ -2,6 +2,7 @@
 layout: home
 title: "Welcome to My Portfolio"
 permalink: /
+author_profile: true
 ---
 
 # Hi there, I'm Yahan Yang! 👋
