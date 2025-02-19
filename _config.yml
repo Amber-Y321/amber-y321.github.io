@@ -1,3 +1,4 @@
+
 # Site settings
 title: "My Portfolio"
 author: "Yahan Yang"
@@ -30,6 +31,19 @@ navigation:
   - title: "Contact"
     url: /contact/
 
+author:
+  name: "Yahan Yang"
+  #avatar: "/assets/images/bio-photo.jpg"
+  bio: "I am an **amazing** person." # Note: Markdown is allowed
+  location: "Boston, MA"
+  links:
+    - label: "Website"
+      icon: "fas fa-fw fa-link"
+      url: "https://amber-y321.github.io/"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/amber-y321"
+
 # Social Links
 social:
   github: amber-y321
@@ -39,7 +53,8 @@ social:
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      #type: "pages"
+      type: posts
     values:
       layout: "single"  # ✅ Ensures all pages use the correct layout
       sidebar: true
