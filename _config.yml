@@ -1,7 +1,10 @@
+# Site settings
 title: "My Portfolio"
 author: "Yahan Yang"
 description: "A portfolio showcasing my work and projects."
 remote_theme: "mmistakes/minimal-mistakes"
+
+# Plugins (Required for Minimal Mistakes)
 plugins:
   - jekyll-remote-theme
   - jekyll-include-cache
@@ -10,25 +13,23 @@ plugins:
   - jekyll-archives
   - jekyll-paginate
 
-
-# Optional settings
-# logo: "/assets/images/profile.png"
+# GitHub Pages settings
 baseurl: ""
 url: "https://amber-y321.github.io"
 
-# Navigation Menu
-nav:
-  - title: "Welcome to My Portfolio"
+# ✅ Fix: Use `navigation:` instead of `nav:`
+navigation:
+  - text: "Home"
     url: /
-  - title: "About Me"
+  - text: "About"
     url: /about/
-  - title: "Projects"
+  - text: "Projects"
     url: /projects/
-  #- title: "Contact"
-   # url: /contact/
+  #- text: "Contact"
+  #  url: /contact/
 
 # Social Links
 social:
   github: amber-y321
-  #linkedin: your-linkedin-username
+  # linkedIn
   email: yangyahan0321@gmail.com
