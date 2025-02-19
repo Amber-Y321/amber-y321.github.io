@@ -1,7 +1,8 @@
 ---
-layout: page
+layout: single  # ✅ Use "single" for proper styling
 title: "About Me"
 permalink: /about/
+author_profile: true  # ✅ Show sidebar with profile
 ---
 
 # About Me  
