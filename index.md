@@ -4,7 +4,7 @@ title: "Welcome to My Portfolio"
 permalink: /
 ---
 
-# Hi, I'm Yahan Yang! 👋
+# Hi there, I'm Yahan Yang! 👋
 
 I am a **Data Scientist & Developer**, passionate about **Machine Learning, AI, and Data Visualization**.
 
