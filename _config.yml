@@ -49,4 +49,4 @@ sidebar:
   description: "Data Analytics | Machine Learning | AI"
   #avatar: "/assets/images/profile.jpg"  # Add a profile picture
   social_links: true  # Enable social media icons
-
+  sticky: true  # Makes the sidebar stay visible when scrolling
