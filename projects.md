@@ -4,7 +4,7 @@ title: "Projects"
 permalink: /projects/
 ---
 
-# Projects  
+# My Projects  
 
 ### 🏆 Customer Segmentation  
 - **Tech Stack:** Python, K-means, PCA  
