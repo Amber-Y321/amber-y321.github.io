@@ -34,5 +34,14 @@ social:
   # linkedIn
   email: yangyahan0321@gmail.com
 
+defaults:
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "single"  # ✅ Ensures all pages use the correct layout
+      author_profile: true
+
+# sidebar
 sidebar:
   nav: "main"
