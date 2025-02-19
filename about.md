@@ -1,8 +1,8 @@
 ---
-layout: single  # ✅ Use "single" for proper styling
+layout: single
 title: "About Me"
 permalink: /about/
-author_profile: true  # ✅ Show sidebar with profile
+author_profile: true
 ---
 
 # About Me  
