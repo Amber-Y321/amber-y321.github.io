@@ -42,6 +42,11 @@ defaults:
       layout: "single"  # ✅ Ensures all pages use the correct layout
       author_profile: true
 
-# sidebar
-sidebar:
-  nav: "main"
+# Enable sidebar navigation
+sidebar: 
+  nav: "main"  # This references _data/navigation.yml
+  title: "Yahan Yang"  # Sidebar title (Optional)
+  description: "Data Analytics | Machine Learning | AI"
+  #avatar: "/assets/images/profile.jpg"  # Add a profile picture
+  social_links: true  # Enable social media icons
+
