@@ -4,9 +4,7 @@ description: "A portfolio showcasing my work and projects."
 remote_theme: "mmistakes/minimal-mistakes"
 plugins:
   - jekyll-remote-theme
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-archives
+
 
 # Optional settings
 # logo: "/assets/images/profile.png"
