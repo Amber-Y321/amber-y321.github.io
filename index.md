@@ -1,13 +1,11 @@
 ---
 layout: home
-title: "Welcome to My Portfolio"
+title: "Welcome to My 2nd Brain!"
 permalink: /
 author_profile: true
 ---
 
-# Hi there, I'm Yahan Yang! 👋
-
-I am a **Data Scientist & Developer**, passionate about **Machine Learning, AI, and Data Visualization**.
+# Hi there, I'm Yahan! 👋 I am a **Data** Person, passionate about **Machine Learning, innovative AI tools**.
 
 ## 📌 Featured Projects
 - **[Customer Segmentation Analysis](#)** (K-means, PCA)
