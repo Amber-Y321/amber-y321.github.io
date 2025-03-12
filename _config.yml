@@ -20,8 +20,8 @@ url: "https://amber-y321.github.io"
 
 # ✅ Fix: Use `navigation:` instead of `nav:`
 navigation:
-  - text: "Home"
-    url: /
+  # - text: "Home"
+  #   url: /
   - text: "About"
     url: /about/
   - text: "Projects"
