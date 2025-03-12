@@ -5,7 +5,8 @@ permalink: /
 author_profile: true
 ---
 
-# Hi there, I'm Yahan! 👋 I am a **Data** Person, passionate about **Machine Learning, innovative AI tools**.
+# Hi there, I'm Yahan! 👋 
+I am a **Data** Person, passionate about **Machine Learning, innovative AI tools**.
 
 ## 📌 Featured Projects
 - **[Customer Segmentation Analysis](#)** (K-means, PCA)
