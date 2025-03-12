@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 ---
 
-# Hi there, I'm Yahan! 👋 
+Hi there, I'm Yahan! 👋 
 I am a **Data** Person, passionate about **Machine Learning, innovative AI tools**.
 
 ## 📌 Featured Projects
