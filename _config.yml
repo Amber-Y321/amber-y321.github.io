@@ -1,6 +1,6 @@
 
 # Site settings
-title: "My Portfolio"
+title: "Home" #"My Portfolio"
 author: "Yahan Yang"
 description: "A portfolio showcasing my work and projects."
 remote_theme: "mmistakes/minimal-mistakes"
