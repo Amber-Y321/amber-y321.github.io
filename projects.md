@@ -5,12 +5,9 @@ permalink: /projects/
 author_profile: true
 ---
 
-# My Projects  
+## Last Update Date: 03/13/2025
 
-### 🏆 Customer Segmentation  
-- **Tech Stack:** Python, K-means, PCA  
+### E-commerce Data Analytics 
+- **Tech Stack:** Data Manipulation, Data Visualization (Python + Streamlit)
 - **[View Project](#)**
 
-### 🏥 Predictive Modeling in Healthcare  
-- **Tech Stack:** Python, Random Forest, XGBoost  
-- **[View Project](#)**
