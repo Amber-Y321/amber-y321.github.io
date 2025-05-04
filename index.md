@@ -36,7 +36,9 @@ Currently, I'm a data consultant at a small business blending online and in-stor
 > The segmentation-driven marketing strategy led to a +49% improvement in online sessions and +43.1% revenue lift compared to the same period last year, excluding fixed growth effects.
 
 <br>
+
 📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321)
+
 ---
 
 ## 📌 Featured Projects
@@ -53,4 +55,5 @@ Currently, I'm a data consultant at a small business blending online and in-stor
 
 <br>
 <br>
+
 📫 **Contact Me:** [yangyahan0321@gmail.com](mailto:yangyahan0321@gmail.com) | [GitHub](https://github.com/amber-y321)
