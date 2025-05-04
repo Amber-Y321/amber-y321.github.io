@@ -42,6 +42,7 @@ Currently, I'm a data consultant at a small business blending online and in-stor
 - How I used LLMs to cluster customers for e-commerce
 - From raw Shopify data to insights: my process
 - Making dashboards that executives love
-...
+
+---
 
 📫 **Contact Me:** [yangyahan0321@gmail.com](mailto:yangyahan0321@gmail.com) | [GitHub](https://github.com/amber-y321)
