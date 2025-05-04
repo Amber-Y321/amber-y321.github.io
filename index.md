@@ -5,7 +5,7 @@ permalink: /
 author_profile: true
 ---
 **🕒 Last updated:** _May 4, 2025_
-<div style="margin-top: 30px;"></div>
+<br>
 
 Hi there, I'm Yahan! 👋  
 I'm a **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
