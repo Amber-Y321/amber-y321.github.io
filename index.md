@@ -10,7 +10,7 @@ I'm a **data scientist** who transforms raw data into real-world impact using **
 
 📄 **[Download Resume](assets/files/Yahan_Yang_Resume.pdf)**
 
-...
+---
 ## 📦 What I Bring to the Table
 
 - 4 years in **data analytics**, **machine learning modeling** + something HR would value about
