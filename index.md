@@ -12,6 +12,7 @@ Hi there, I'm Yahan! 👋
 I'm a **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
 
 <br>
+
 📄 **[Download Resume](assets/files/Yahan_Yang_Resume.pdf)**
 
 ---
@@ -53,6 +54,7 @@ Currently, I'm a data consultant at a small business blending online and in-stor
 - Making dashboards that executives love
 ---
 
+<br>
 <br>
 <br>
 
