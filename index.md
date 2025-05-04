@@ -18,7 +18,7 @@ I'm a **data scientist** who transforms raw data into real-world impact using **
 - Proven impact in **E-commerce customer targeting**, **retail analytics**, **Patient journey analytics** and **Medication market mapping**.
 - Skilled with **Python, SQL, AWS, Snowflake, Tableau**
 - Strong communicator and Postive team player
-...
+---
 ## 🧠 Ongoing Work @ LuxCouture
 
 Currently, I'm a data consultant at a small business blending online and in-store retail. Here's what I've been contributing to:
@@ -31,13 +31,12 @@ Currently, I'm a data consultant at a small business blending online and in-stor
 > The segmentation-driven marketing strategy led to a +49% improvement in online sessions and +43.1% revenue lift compared to the same period last year, excluding fixed growth effects.
 
 📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321)
-...
+---
 ## 📌 Featured Projects
 - **[LLM-Powered Customer Segmentation](#)** (LLM, K-means, PCA)
-- **[E-commerce Data Analytics](#)** (Streamlit)
 - **[Lung Cancer ](#)** ()
 - **[Hospital Administration Simulation](#)** ()
-...
+---
   
 ## ✍️ Latest Insights
 - How I used LLMs to cluster customers for e-commerce
