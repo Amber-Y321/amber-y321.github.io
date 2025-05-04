@@ -4,6 +4,8 @@ title: "Welcome to My 2nd Brain!"
 permalink: /
 author_profile: true
 ---
+**🕒 Last updated:** _May 4, 2025_
+<div style="margin-top: 30px;"></div>
 
 Hi there, I'm Yahan! 👋  
 I'm a **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
@@ -13,12 +15,13 @@ I'm a **data scientist** who transforms raw data into real-world impact using **
 ---
 ## 📦 What I Bring to the Table
 
-- 4 years in **data analytics**, **machine learning modeling** + something HR would value about
-- Passionate and make a good use of edge-cutting **AI tooling**
-- Proven impact in **E-commerce customer targeting**, **retail analytics**, **Patient journey analytics** and **Medication market mapping**.
-- Skilled with **Python, SQL, AWS, Snowflake, Tableau**
-- Strong communicator and Postive team player
+- 4 years in **data analytics**, **machine learning modeling**, delivering measurable and actionable business outcomes.
+- Actively exploring and applying cutting-edge **AI tools** to deliver practical solutions and enhance efficiency.
+- Proven impact in **E-commerce customer targeting**, **retail analytics**, **Patient journey analytics** and **Healthcare product market mapping**.
+- Proficient in **Python, SQL, AWS, Snowflake** and **Tableau**.
+- Strong communicator and Proactive team player.
 ---
+
 ## 🧠 Ongoing Work @ LuxCouture
 
 Currently, I'm a data consultant at a small business blending online and in-store retail. Here's what I've been contributing to:
