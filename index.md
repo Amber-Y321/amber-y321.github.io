@@ -26,10 +26,26 @@ I'm a **data scientist** who transforms raw data into real-world impact using **
 ---
 
 ## 🧠 Ongoing Work @ LuxCouture
+<section>
+  <h2>💡 Shopify Analytics Dashboard — End-to-End Customer Insights</h2>
+  <p><strong>Role:</strong> Data Consultant | <strong>Stack:</strong> Python, Streamlit, Shopify API, GA4 API, scikit-learn, OpenAI GPT</p>
+  
+  <ul>
+    <li>⚙️ Built a real-time, end-to-end analytics pipeline integrating <strong>Shopify Admin API</strong> and <strong>Google Analytics Reporting API</strong> to automate sales, session, and customer data ingestion.</li>
+    <li>🔍 Engineered behavioral features in Python, trained a <strong>K-means segmentation model</strong>, and deployed an <strong>LLM-powered campaign assistant</strong> to generate product recommendations and seasonal messaging strategies.</li>
+    <li>📊 Developed an interactive <strong>Streamlit dashboard</strong> with dynamic filtering, revenue attribution, session funnels, and customer segment profiling using <strong>Plotly</strong> and <strong>Seaborn</strong>.</li>
+  </ul>
 
-Currently, I'm a data consultant at a small business blending online and in-store retail. Here's what I've been contributing to:
+  <blockquote>
+    <strong>🚀 Results:</strong> Enabled precision marketing strategies that improved <strong>online sessions by +49%</strong> and drove a <strong>+43.1% lift in revenue</strong> YoY (excluding baseline growth).
+  </blockquote>
+</section>
 
-- Built and automated an **end-to-end analytics pipeline**, pulling real-time Shopify sales data through API, preprocessing and engineering features in Python, applying segment-driven campaign strategy, and deploying results to an interactive Streamlit dashboard for marketing insights. (request API, Pandas, sickit-learn, Github)
+
+
+Currently, I'm a data consultant at a small business blending online and in-store retail. What I've accomplished:
+
+- Built and automated an **end-to-end analytics pipeline**, pulling real-time Shopify sales data through API, preprocessing and engineering features in Python, applying segment-driven campaign strategy, and deploying results to an interactive Streamlit dashboard for marketing insights. (Shopify API, Google Analytics Reporting API, Pandas, sickit-learn, Github)
 - Designed an **LLM-powered customer segmentation model** to improve personalized user experiences with tailored product suggestions and targeted campaigns. (K-means, LLM, Jupyter Notebook, Python)
 - Created interactive dashboards with **Streamlit + Python** to visualize marketing performance and customer segment behavior. (Plotly, Seaborn, Streamlit, Jupyter Notebook, Python)
 
