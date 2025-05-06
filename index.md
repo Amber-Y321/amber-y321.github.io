@@ -26,22 +26,17 @@ I'm a **data scientist** who transforms raw data into real-world impact using **
 ---
 
 ## 🧠 Ongoing Work @ LuxCouture - End-to-End Customer Insights
-  <p><strong>Role:</strong> Data Consultant | <strong>Stack:</strong> Python, Streamlit, Github, Shopify API, GA4 API, Pandas, Numpy, Plotly, Seaborn, scikit-learn, OpenAI GPT</p>
+  <p><strong>Role:</strong> Data Consultant </p>
+  <p><strong>Stack:</strong> Python, Streamlit, Github, Shopify API, GA4 API, OpenAI GPT</p>
+  <p><strong>Python Packages:</strong> Pandas, Numpy, Plotly, Seaborn, scikit-learn </p>
   
 - Built and automated an **end-to-end analytics pipeline** integrating pulling real-time Shopify sales and session data through API, preprocessing and engineering features in Python, applying segment-driven campaign strategy, and deploying results to an interactive Streamlit dashboard for marketing insights.
 - Engineered behavioral features in Python, trained a **K-means segmentation model**, and deployed an **LLM-powered campaign assistant** to generate product recommendations and seasonal messaging strategies.
 - Designed an interactive **Streamlit dashboard** with dynamic filtering, revenue attribution, session funnels, and customer segment profiling to efficiently visualize market performance and customer engagement.
 
-  <blockquote>
-    <strong>🚀 Results:</strong> Enabled precision marketing strategies that improved <strong>online sessions by +49%</strong> and drove a <strong>+43.1% lift in revenue</strong> YoY (excluding baseline growth).
-  </blockquote>
-</section>
-
-
-
-
 💥 Business Impact:
 > The segmentation-driven marketing strategy led to a +49% improvement in online sessions and +43.1% revenue lift compared to the same period last year, excluding fixed growth effects.
+
 
 <br>
 
