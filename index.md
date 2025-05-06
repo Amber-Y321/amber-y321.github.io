@@ -20,8 +20,8 @@ I'm a **data scientist** who transforms raw data into real-world impact using **
 
 - 4 years in **data analytics**, **machine learning modeling**, delivering measurable and actionable business outcomes.
 - Actively exploring and applying cutting-edge **AI tools** to deliver practical solutions and enhance efficiency.
-- Proven impact in **E-commerce customer targeting**, **retail analytics**, **Patient journey analytics** and **Healthcare product market mapping**.
-- Proficient in **Python, SQL, AWS, Snowflake** and **Tableau**.
+- Proven impact in **E-commerce customer targeting**, **Retail analytics**, **Patient journey analytics** and **Medication market mapping**.
+- Proficient in **Python, SQL, OpenAI GPT, AWS, Snowflake** and **Tableau**.
 - Strong communicator and Proactive team player.
 ---
 
