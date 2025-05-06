@@ -30,7 +30,7 @@ I'm a **data scientist** who transforms raw data into real-world impact using **
   <p><strong>Stack:</strong> Python, Streamlit, Github, Shopify API, GA4 API, OpenAI GPT</p>
   <p><strong>Python Packages:</strong> Pandas, Numpy, Plotly, Seaborn, scikit-learn </p>
   
-- Built and automated an **end-to-end analytics pipeline** integrating pulling real-time Shopify sales and session data through API, preprocessing and engineering features in Python, applying segment-driven campaign strategy, and deploying results to an interactive Streamlit dashboard for marketing insights.
+- Built and automated an **end-to-end analytics pipeline** integrating pulling real-time Shopify sales and session data through API, preprocessing and engineering features in Python, applying segment-driven campaign strategy, and deploying results to interactive dashboards for marketing insights.
 - Engineered behavioral features in Python, trained a **K-means segmentation model**, and deployed an **LLM-powered campaign assistant** to generate product recommendations and seasonal messaging strategies.
 - Designed an interactive **Streamlit dashboard** with dynamic filtering, revenue attribution, session funnels, and customer segment profiling to efficiently visualize market performance and customer engagement.
 
