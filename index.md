@@ -9,7 +9,7 @@ author_profile: true
 <br>
 
 Hi there, I'm Yahan! 👋  
-I'm a **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
+A **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
 
 <br>
 
