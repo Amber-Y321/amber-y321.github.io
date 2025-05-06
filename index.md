@@ -29,9 +29,9 @@ I'm a **data scientist** who transforms raw data into real-world impact using **
 
 Currently, I'm a data consultant at a small business blending online and in-store retail. Here's what I've been contributing to:
 
-- Built a **Shopify data pipeline** to track revenue, conversion, and retention in real time
-- Designed an **LLM-powered customer segmentation model** to improve campaign targeting (resulting in **49%** more online sessions)
-- Created interactive dashboards with **Streamlit + Python** to visualize marketing performance and customer behavior
+- Built and automated an **end-to-end analytics pipeline**, pulling real-time Shopify sales data through API, preprocessing and engineering features in Python, applying segment-driven campaign strategy, and deploying results to an interactive Streamlit dashboard for marketing insights. (request API, Pandas, sickit-learn, Github)
+- Designed an **LLM-powered customer segmentation model** to improve personalized user experiences with tailored product suggestions and targeted campaigns. (K-means, LLM, Jupyter Notebook, Python)
+- Created interactive dashboards with **Streamlit + Python** to visualize marketing performance and customer segment behavior. (Plotly, Seaborn, Streamlit, Jupyter Notebook, Python)
 
 💥 Business Impact:
 > The segmentation-driven marketing strategy led to a +49% improvement in online sessions and +43.1% revenue lift compared to the same period last year, excluding fixed growth effects.
