@@ -44,8 +44,10 @@ A **data scientist** who transforms raw data into real-world impact using **data
 
 ## 📌 Featured Projects
 - **[Emotional Recognition with Deep Learning](#)** (LSTM, Deep Learning, Python)
+
 📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321/Emotion-Detection)
 - **[Modeling COVID-19 ER Dynamics to Guide Healthcare Resource Allocation](#)** (Discrete-Event Simulation, Queueing Theory, Python)
+
 📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321/Hospitalization-simulation)
 ---
 
