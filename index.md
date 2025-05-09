@@ -6,14 +6,11 @@ author_profile: true
 ---
 **🕒 Last updated:** _May 4, 2025_
 <br>
-<br>
 
 Hi there, I'm Yahan! 👋  
 A **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
 
-<br>
-
-📄 **[Download Resume](assets/files/Yahan_Yang_Resume.pdf)**
+📄 **[Download Resume](materials/Resume of Yahan_2025.pdf)**
 
 ---
 ## 📦 What I Bring to the Table
@@ -40,14 +37,15 @@ A **data scientist** who transforms raw data into real-world impact using **data
 
 <br>
 
-📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321)
+📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321/Customer_Behavior_Dashboard)
 
 ---
 
 ## 📌 Featured Projects
-- **[LLM-Powered Customer Segmentation](#)** (LLM, K-means, PCA)
-- **[Lung Cancer ](#)** ()
-- **[Hospital Administration Simulation](#)** ()
+- **[Emotional Recognition with Deep Learning](#)** (LSTM, Deep Learning, Python)
+📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321/Emotion-Detection)
+- **[Modeling COVID-19 ER Dynamics to Guide Healthcare Resource Allocation](#)** (Discrete-Event Simulation, Queueing Theory, Python)
+📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321/Hospitalization-simulation)
 ---
 
 ## ✍️ Latest Insights
