@@ -22,12 +22,12 @@ url: "https://amber-y321.github.io"
 navigation:
   # - text: "Home"
   #   url: /
-  - text: "About"
-    url: /about/
   - text: "Projects"
     url: /projects/
   - title: "Blog"
     url: /blog/
+  - text: "About"
+    url: /about/
   - title: "Contact"
     url: /contact/
 
