@@ -10,7 +10,7 @@ author_profile: true
 Hi there, I'm Yahan! 👋  
 A **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
 
-📄 **[Download Resume](materials/Resume of Yahan_2025.pdf)**
+📄 **[Download Resume](materials/Resume%20of%20Yahan_2025.pdf.pdf)**
 
 ---
 ## 📦 What I Bring to the Table
@@ -42,12 +42,16 @@ A **data scientist** who transforms raw data into real-world impact using **data
 ---
 
 ## 📌 Featured Projects
+- 📁 **[Emotional Recognition with Deep Learning](https://github.com/amber-y321/Emotion-Detection)**  
+Built an LSTM-based model to classify human emotions from speech signals using deep learning in Python.
+
 - **[Emotional Recognition with Deep Learning](#)** (LSTM, Deep Learning, Python)
 
 📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321/Emotion-Detection)
 - **[Modeling COVID-19 ER Dynamics to Guide Healthcare Resource Allocation](#)** (Discrete-Event Simulation, Queueing Theory, Python)
 
 📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321/Hospitalization-simulation)
+
 ---
 
 ## ✍️ Latest Insights
