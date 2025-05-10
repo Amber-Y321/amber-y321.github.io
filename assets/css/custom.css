@@ -1,14 +1,14 @@
-/* Expand overall site container */
+/* 	This sets the full container width */
 .wrap {
-  max-width: 1400px !important;
+  max-width: 2000px !important;
 }
 
-/* Expand main content section */
+/* Controls the readable middle content width */
 .page__content {
-  max-width: 1200px !important;
+  max-width: 1600px !important;
 }
 
-/* Shrink sidebar width */
+/* 	Reduces sidebar width */
 .sidebar {
   width: 200px; /* default is ~250px */
 }
