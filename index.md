@@ -37,7 +37,6 @@ Hi there, I'm Yahan! 👋  A **data scientist** who transforms raw data into rea
 - Engineered behavioral features in Python, trained a **K-means segmentation model**, and deployed an **LLM-powered campaign assistant** to generate product recommendations and seasonal messaging strategies.
 - Designed an interactive **Streamlit dashboard** with dynamic filtering, revenue attribution, session funnels, and customer segment profiling to efficiently visualize market performance and customer engagement.
 
-
 <br>
 
 📁 View code and dashboards: [GitHub Projects](https://github.com/amber-y321/Customer_Behavior_Dashboard)
