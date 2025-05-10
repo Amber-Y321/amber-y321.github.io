@@ -20,6 +20,7 @@ Hi there, I'm Yahan! 👋  A **data scientist** who transforms raw data into rea
 - Proven impact in **E-commerce customer targeting**, **Retail analytics**, **Patient journey analytics** and **Medication market mapping**.
 - Proficient in **Python, SQL, OpenAI GPT, AWS, Snowflake** and **Tableau**.
 - Strong communicator and Proactive team player.
+
 ---
 
 ## 🧠 Ongoing Work @ LuxCouture - End-to-End Customer Insights
