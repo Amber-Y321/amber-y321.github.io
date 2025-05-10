@@ -7,8 +7,7 @@ author_profile: true
 **🕒 Last updated:** _May 10, 2025_
 <br>
 
-Hi there, I'm Yahan! 👋  
-A **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
+Hi there, I'm Yahan! 👋  A **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
 
 📄 **[Download Resume](materials/Resume%20of%20Yahan_2025.pdf)**
 
@@ -28,6 +27,7 @@ A **data scientist** who transforms raw data into real-world impact using **data
   <p><strong>Python Packages:</strong> Pandas, Numpy, Plotly, Seaborn, scikit-learn </p>
 
 <br>
+
 💥 Business Impact:
 > The segmentation-driven marketing strategy led to a +49% improvement in online sessions and +43.1% revenue lift compared to the same period last year, excluding fixed growth effects.
 
@@ -43,10 +43,10 @@ A **data scientist** who transforms raw data into real-world impact using **data
 ---
 
 ## 📌 Featured Projects
-- 📁 **[Emotional Recognition with Deep Learning](https://github.com/amber-y321/Emotion-Detection)** (LSTM, Deep Learning, Python)
+- 📁 **[Emotional Recognition with Deep Learning](https://github.com/amber-y321/Emotion-Detection) (LSTM, Deep Learning, Python)**
 Built an LSTM-based model to classify human emotions from speech signals using deep learning in Python.
 
-- 📁 **[Modeling COVID-19 ER Dynamics to Guide Healthcare Resource Allocation](https://github.com/amber-y321/Hospitalization-simulation)** (Discrete-Event Simulation, Queueing Theory, Python)
+- 📁 **[Modeling COVID-19 ER Dynamics to Guide Healthcare Resource Allocation](https://github.com/amber-y321/Hospitalization-simulation) (Discrete-Event Simulation, Queueing Theory, Python)** 
 
 ---
 
