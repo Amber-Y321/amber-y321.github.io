@@ -44,11 +44,10 @@ Hi there, I'm Yahan! 👋  A **data scientist** who transforms raw data into rea
 ---
 
 ## 📌 Featured Projects
-- 📁 **[Emotional Recognition with Deep Learning](https://github.com/amber-y321/Emotion-Detection) (LSTM, Deep Learning, Python)**
+- 📁 **[Emotional Recognition with Deep Learning](https://github.com/amber-y321/Emotion-Detection)** — *(LSTM, Deep Learning, Python)*
 
-Built an LSTM-based model to classify human emotions from speech signals using deep learning in Python.
 
-- 📁 **[Modeling COVID-19 ER Dynamics to Guide Healthcare Resource Allocation](https://github.com/amber-y321/Hospitalization-simulation) (Discrete-Event Simulation, Queueing Theory, Python)** 
+- 📁 **[Modeling COVID-19 ER Dynamics to Guide Healthcare Resource Allocation](https://github.com/amber-y321/Hospitalization-simulation)** — *(LSTM, Deep Learning, Python)*
 
 ---
 
