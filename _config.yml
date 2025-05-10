@@ -53,9 +53,10 @@ social:
 defaults:
   - scope:
       path: ""
-      #type: "pages"
-      type: posts
+      type: "pages"
+      # type: posts
     values:
+      css: "assets/css/custom.css"
       layout: "single"  # ✅ Ensures all pages use the correct layout
       sidebar: true
       author_profile: true
