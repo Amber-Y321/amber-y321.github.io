@@ -20,3 +20,20 @@
 .page {
   margin-left: 80px;
 }
+
+/* Reduce base font size across the site */
+body {
+  font-size: 13px;  /* Default is around 16px */
+}
+
+/* Optional: reduce heading sizes */
+h1 {
+  font-size: 1.8em;
+}
+h2 {
+  font-size: 1.4em;
+}
+h3 {
+  font-size: 1.2em;
+}
+
