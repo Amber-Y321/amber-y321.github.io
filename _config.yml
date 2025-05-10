@@ -24,12 +24,12 @@ navigation:
   #   url: /
   - text: "Projects"
     url: /projects/
-  - title: "Blog"
-    url: /blog/
+  # - title: "Blog"
+  #   url: /blog/
   - text: "About"
     url: /about/
-  - title: "Contact"
-    url: /contact/
+  # - title: "Contact"
+  #   url: /contact/
 
 author:
   name: "Yahan Yang"
@@ -55,7 +55,7 @@ defaults:
       path: ""
       type: "pages"
       # type: posts
-    values:
+      values:
       css: "assets/css/custom.css"
       layout: "single"  # ✅ Ensures all pages use the correct layout
       sidebar: true
