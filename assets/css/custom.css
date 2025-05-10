@@ -1,0 +1,12 @@
+/* Make content container wider */
+.page__content,
+.archive__item {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Optional: widen layout container too */
+.page {
+  max-width: 1300px;
+  margin: 0 auto;
+}
