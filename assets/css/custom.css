@@ -1,22 +1,22 @@
 /* Make content container wider */
 .page__content,
 .archive__item {
-  max-width: 1500px;
+  max-width: 1800px;
   margin: 0 auto;
 }
 
 /* Optional: widen layout container too */
 .page {
-  max-width: 1600px;
+  max-width: 2000px;
   margin: 0 auto;
 }
 
 /* Shrink sidebar width */
 .sidebar {
-  width: 150px; /* default is ~250px */
+  width: 120px; /* default is ~250px */
 }
 
 /* Optional: Adjust content padding next to sidebar */
 .page {
-  margin-left: 200px;
+  margin-left: 80px;
 }
