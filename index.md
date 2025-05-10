@@ -4,7 +4,7 @@ title: "Welcome to My 2nd Brain!"
 permalink: /
 author_profile: true
 ---
-**🕒 Last updated:** _May 4, 2025_
+**🕒 Last updated:** _May 10, 2025_
 <br>
 
 Hi there, I'm Yahan! 👋  
