@@ -10,7 +10,7 @@ author_profile: true
 Hi there, I'm Yahan! 👋  
 A **data scientist** who transforms raw data into real-world impact using **data analytics, machine learning, AI tools, and data storytelling**.
 
-📄 **[Download Resume](materials/Resume%20of%20Yahan_2025.pdf.pdf)**
+📄 **[Download Resume](materials/Resume%20of%20Yahan_2025.pdf)**
 
 ---
 ## 📦 What I Bring to the Table
