@@ -56,6 +56,7 @@ Hi there, I'm Yahan! 👋  A **data scientist** who transforms raw data into rea
 - How I used LLMs to cluster customers for e-commerce
 - From raw Shopify data to insights: my process
 - Making dashboards that executives love
+
 ---
 
 <br>
