@@ -49,16 +49,14 @@ social:
   github: amber-y321
   # linkedin: 
   email: yangyahan0321@gmail.com
-
+  
 defaults:
   - scope:
       path: ""
-      # type: "pages"
     values:
       css: "assets/css/custom.css"
-      # layout: "single"
-      sidebar: true
-      author_profile: true
+      # sidebar: true
+      # author_profile: true
 
 
 # Enable sidebar navigation
