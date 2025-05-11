@@ -18,7 +18,17 @@ plugins:
 baseurl: ""
 url: "https://amber-y321.github.io"
 
-# ✅ Fix: Use `navigation:` instead of `nav:`
+# defaults:
+#   - scope:
+#       path: ""
+#     values:
+#       css: "/assets/css/custom.css"
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: "/assets/css/custom.css"
+      
 navigation:
   # - text: "Home"
   #   url: /
@@ -49,14 +59,6 @@ social:
   github: amber-y321
   # linkedin: 
   email: yangyahan0321@gmail.com
-  
-defaults:
-  - scope:
-      path: ""
-    values:
-      css: "/assets/css/custom.css"
-      author_profile: true
-      sidebar: true
 
 
 
