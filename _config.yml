@@ -53,7 +53,7 @@ social:
 defaults:
   - scope:
       path: ""
-      type: "pages"
+      # type: "pages"
     values:
       css: "assets/css/custom.css"
       # layout: "single"
