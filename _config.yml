@@ -54,9 +54,8 @@ defaults:
   - scope:
       path: ""
     values:
-      css: "assets/css/custom.css"
-      # sidebar: true
-      # author_profile: true
+      css: "/assets/css/custom.css"
+
 
 
 # Enable sidebar navigation
