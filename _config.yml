@@ -55,7 +55,6 @@ defaults:
       path: ""
     values:
       css: "/assets/css/custom.css"
-      layout: "home"
       author_profile: true
       sidebar: true
 
