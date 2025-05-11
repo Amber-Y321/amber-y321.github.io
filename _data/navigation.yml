@@ -11,3 +11,8 @@ main:
   # - title: "Contact"
   #   url: /contact/
 
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: "/assets/css/custom.css"
