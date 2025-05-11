@@ -18,16 +18,12 @@ plugins:
 baseurl: ""
 url: "https://amber-y321.github.io"
 
-# defaults:
-#   - scope:
-#       path: ""
-#     values:
-#       css: "/assets/css/custom.css"
 defaults:
   - scope:
       path: ""
     values:
       css: "/assets/css/custom.css"
+
       
 navigation:
   # - text: "Home"
@@ -59,7 +55,6 @@ social:
   github: amber-y321
   # linkedin: 
   email: yangyahan0321@gmail.com
-
 
 
 # Enable sidebar navigation
