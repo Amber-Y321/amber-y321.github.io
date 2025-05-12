@@ -41,7 +41,7 @@ navigation:
 
 author:
   name: "Yahan Yang"
-  #avatar: "/assets/images/bio-photo.jpg"
+  avatar: "/materials/profile_photo.jpg"
   bio: "An **ENFJ** with a Bunch of Good Ideas." # Note: Markdown is allowed
   location: "Boston, MA"
   links:
@@ -67,4 +67,4 @@ sidebar:
   social_links: true
   sticky: true
   show: true
-  # avatar: "/assets/images/profile.jpg"  # Add a profile picture
+  avatar: "/materials/profile_photo.jpg"  # Add a profile picture
