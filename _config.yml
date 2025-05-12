@@ -5,7 +5,6 @@ author: "Yahan Yang"
 description: "A portfolio showcasing my work and projects."
 remote_theme: "mmistakes/minimal-mistakes"
 
-head_custom: _includes/head-custom.html
 
 # Plugins (Required for Minimal Mistakes)
 plugins:
@@ -31,8 +30,8 @@ defaults:
 navigation:
   # - text: "Home"
   #   url: /
-  - text: "Projects"
-    url: /projects/
+  # - text: "Projects"
+  #   url: /projects/
   - text: "About"
     url: /about/
   # - title: "Contact"
