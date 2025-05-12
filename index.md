@@ -4,7 +4,7 @@ title: "Welcome to My 2nd Brain!"
 permalink: /
 author_profile: true
 ---
-**🕒 Last updated:** _May 10, 2025_
+**🕒 Last updated:** _May 12, 2025_
 <br>
 <br>
 
@@ -25,7 +25,7 @@ Hi there, I'm Yahan! 👋  A **data scientist** who tells data stories using **d
 
 ## 🧠 Ongoing Work @ LuxCouture - End-to-End Customer Insights
   <p><strong>Role:</strong> Data Consultant </p>
-  <p><strong>Stack:</strong> Python, Streamlit, Github, Shopify API, GA4 API, OpenAI GPT</p>
+  <p><strong>Tool:</strong> Python, Streamlit, Github, Shopify API, GA4 API, GPT</p>
   <p><strong>Python Packages:</strong> Pandas, Numpy, Plotly, Seaborn, scikit-learn </p>
 
 <br>
@@ -51,10 +51,10 @@ Hi there, I'm Yahan! 👋  A **data scientist** who tells data stories using **d
 
 ---
 
-## ✍️ Latest Insights
+/** ## ✍️ Latest Insights
 - How I used LLMs to cluster customers for e-commerce
 - From raw Shopify data to insights: my process
-- Making dashboards that executives love
+- Making dashboards that executives love **/
 
 ---
 
