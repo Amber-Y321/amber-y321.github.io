@@ -49,12 +49,6 @@ Hi there, I'm Yahan! 👋  A **data scientist** who tells data stories using **d
 
 - 📁 **[Modeling COVID-19 ER Dynamics to Guide Healthcare Resource Allocation](https://github.com/amber-y321/Hospitalization-simulation)** — *(Discrete-Event Simulation, Queueing Theory, Python)*
 
----
-
-/** ## ✍️ Latest Insights
-- How I used LLMs to cluster customers for e-commerce
-- From raw Shopify data to insights: my process
-- Making dashboards that executives love **/
 
 ---
 
