@@ -18,6 +18,8 @@ plugins:
 baseurl: ""
 url: "https://amber-y321.github.io"
 
+head_custom: _includes/head-custom.html
+
 defaults:
   - scope:
       path: ""
