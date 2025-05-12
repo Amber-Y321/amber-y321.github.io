@@ -5,6 +5,8 @@ author: "Yahan Yang"
 description: "A portfolio showcasing my work and projects."
 remote_theme: "mmistakes/minimal-mistakes"
 
+head_custom: _includes/head-custom.html
+
 # Plugins (Required for Minimal Mistakes)
 plugins:
   - jekyll-remote-theme
@@ -18,7 +20,6 @@ plugins:
 baseurl: ""
 url: "https://amber-y321.github.io"
 
-head_custom: _includes/head-custom.html
 
 defaults:
   - scope:
