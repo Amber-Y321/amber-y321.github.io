@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: single
 title: "Welcome to My 2nd Brain!"
 permalink: /
 author_profile: true
