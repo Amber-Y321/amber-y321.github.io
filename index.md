@@ -34,7 +34,7 @@ Hi there, I'm Yahan! 👋  A **data scientist** who tells data stories using **d
 > The segmentation-driven marketing strategy led to a +49% improvement in online sessions and +43.1% revenue lift compared to the same period last year, excluding fixed growth effects.
 
 <p align="center">
-  <img src="/materials/GIF_Dashboard.gif" alt="Demo GIF" width="800">
+  <img src="/materials/GIF_Dashboard.gif" alt="Demo GIF" width="700">
 </p>
 
 - Built and automated an **end-to-end analytics pipeline** integrating pulling real-time Shopify sales and session data through API, preprocessing and engineering features in Python, applying segment-driven campaign strategy, and deploying results to interactive dashboards for marketing insights.
