@@ -43,21 +43,19 @@ body {
 }
 
 
-/* 1) Make the links themselves bigger */
-.site-nav__link {
-  font-size: 1.8rem !important;        /* tweak up/down */
-  padding: 1rem 1.5rem !important;     /* more click/tap area */
+/* ———————————————————————
+   Enlarge every link in your header nav
+———————————————————————————————— */
+header nav a {
+  font-size: 2rem !important;      /* ↑ tweak up/down */
+  padding:   1.2rem 2.5rem !important;/* ↑ vertical / horizontal breathing room */
 }
 
-/* 2) Give the header more vertical breathing room */
-.site-header {
-  padding-top: 1.5rem !important;
-  padding-bottom: 1.5rem !important;
+/* ———————————————————————
+   Give the header itself more height
+———————————————————————————————— */
+header {
+  padding-top:    2rem !important;   /* ↑ space above the nav links */
+  padding-bottom: 2rem !important;   /* ↑ space below the nav links */
 }
 
-/* 3) Center the nav bar */
-.site-nav {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
