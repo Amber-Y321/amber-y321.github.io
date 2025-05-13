@@ -36,7 +36,7 @@ body {
 
 /* 1. Make nav links larger */
 .site-header .site-nav li a {
-  font-size: 1.2rem !important;   /* adjust up or down */
+  font-size: 2rem !important;   /* adjust up or down */
   padding: 0.75rem 1rem !important; /* optional: more click area */
 }
 
