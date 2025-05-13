@@ -45,7 +45,7 @@ body {
 
 /* 1) Make the links themselves bigger */
 .site-nav__link {
-  font-size: 1.6rem !important;        /* tweak up/down */
+  font-size: 1.8rem !important;        /* tweak up/down */
   padding: 1rem 1.5rem !important;     /* more click/tap area */
 }
 
