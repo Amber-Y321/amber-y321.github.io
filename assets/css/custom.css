@@ -36,8 +36,8 @@ body {
 /* Make the sidebar avatar bigger */
 .site-sidebar .avatar-container img,
 .site-sidebar .author-avatar {
-  width: 180px !important;
-  height: 180px !important;
+  width: 250px !important;
+  height: 250px !important;
   /* if you want it perfectly round: */
   border-radius: 50%;
 }
