@@ -8,12 +8,12 @@ h1 {
 
 /* 	This sets the full container width */
 .wrap {
-  max-width: 2000px !important;
+  max-width: 2200px !important;
 }
 
 /* Controls the readable middle content width */
 .page__content {
-  max-width: 1600px !important;
+  max-width: 1900px !important;
 }
 
 /* 	Reduces sidebar width */
@@ -28,7 +28,7 @@ h1 {
 
 /* Reduce base font size across the site */
 body {
-  font-size: 13px;  /* Default is around 16px */
+  font-size: 15px;  /* Default is around 16px */
 }
 
 /* Optional: reduce heading sizes */
