@@ -1,5 +1,5 @@
 body {
-  background-color: #fffbe6 !important;
+  background-color: lightyellow !important;
 }
 
 h1 {
@@ -23,7 +23,7 @@ h1 {
 
 /* Optional: Adjust content padding next to sidebar */
 .page {
-  margin-left: 200px;
+  margin-left: 250px;
 }
 
 /* Reduce base font size across the site */
