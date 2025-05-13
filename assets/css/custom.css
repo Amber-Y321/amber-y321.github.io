@@ -32,26 +32,6 @@ h3 {
 body {
   font-size: 15px;  /* Default is around 16px */
 }
-/* assets/css/custom.css */
-
-/* 1. Make nav links larger */
-.site-header .site-nav li a {
-  font-size: 2rem !important;   /* adjust up or down */
-  padding: 0.75rem 1rem !important; /* optional: more click area */
-}
-
-/* 2. Center the nav list */
-.site-header .site-nav {
-  display: flex !important;
-  justify-content: center !important;
-  align-items: center !important;
-}
-
-/* 3. (Optional) If you want the entire nav bar to span full width */
-.site-header .wrapper {
-  justify-content: center !important;
-}
-
 
 /* Make the sidebar avatar bigger */
 .site-sidebar .avatar-container img,
@@ -62,3 +42,20 @@ body {
   border-radius: 50%;
 }
 
+/* 1. Make the nav links larger */
+.site-header .site-nav li a {
+  font-size: 1.6rem !important;      /* ↑ bump this up or down */
+  padding: 1rem 1.5rem !important;   /* ↑ more click/tap area */
+}
+
+/* 2. Increase the nav bar’s overall height (if you want more vertical space) */
+.site-header {
+  padding-top: 1.5rem !important;    /* ↑ controls top gap */
+  padding-bottom: 1.5rem !important; /* ↑ controls bottom gap */
+}
+
+/* 3. Center the nav items in the header */
+.site-header .wrapper {
+  display: flex !important;
+  justify-content: center !important;
+}
