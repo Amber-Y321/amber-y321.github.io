@@ -20,17 +20,17 @@ h3 {
 
 /* Controls the readable middle content width */
 .page__content {
-  max-width: 2100px !important;
+  max-width: 2500px !important;
 }
 
 /* 	Reduces sidebar width */
 .sidebar {
-  width: 200px; /* default is ~250px */
+  width: 250px; /* default is ~250px */
 }
 
 /* Reduce base font size across the site */
 body {
-  font-size: 15px;  /* Default is around 16px */
+  font-size: 16px;  /* Default is around 16px */
 }
 
 /* Make the sidebar avatar bigger */
