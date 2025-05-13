@@ -40,7 +40,14 @@ body {
   /* if you want it perfectly round: */
   border-radius: 0;
   object-fit: cover !important;
+  margin-bottom: 0.5rem !important;
 }
+
+/* (Optional) Also pull up the intro text if needed */
+.author__bio {
+  margin-top: 0 !important;          /* or use a small value like 0.25rem */
+}
+
 
 /* —————————————————————————————————————————————— 
    1) Give the masthead more vertical padding 
