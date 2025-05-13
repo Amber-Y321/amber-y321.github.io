@@ -42,20 +42,21 @@ body {
   border-radius: 50%;
 }
 
-
-/* ———————————————————————
-   Enlarge every link in your header nav
-———————————————————————————————— */
-header nav a {
-  font-size: 2rem !important;      /* ↑ tweak up/down */
-  padding:   1.2rem 2.5rem !important;/* ↑ vertical / horizontal breathing room */
+/* —————————————————————————————————————————————— 
+   1) Give the masthead more vertical padding 
+—————————————————————————————————————————————— */
+#masthead, .masthead {
+  padding-top:    2rem !important;  /* ↑ adjust to taste */
+  padding-bottom: 2rem !important;  /* ↑ adjust to taste */
 }
 
-/* ———————————————————————
-   Give the header itself more height
-———————————————————————————————— */
-header {
-  padding-top:    2rem !important;   /* ↑ space above the nav links */
-  padding-bottom: 2rem !important;   /* ↑ space below the nav links */
+/* —————————————————————————————————————————————— 
+   2) Enlarge every link inside the masthead nav 
+—————————————————————————————————————————————— */
+#masthead nav a,
+.masthead nav a {
+  font-size: 1.8rem !important;      /* ↑ tweak up/down */
+  padding:   1rem 2rem !important;   /* ↑ vertical/horizontal breathing room */
+  margin:    0 0.5rem !important;    /* optional spacing between items */
 }
 
