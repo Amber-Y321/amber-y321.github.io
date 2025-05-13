@@ -26,6 +26,7 @@ h3 {
 /* 	Reduces sidebar width */
 .sidebar {
   width: 250px; /* default is ~250px */
+  margin-left: 2rem !important; 
 }
 
 /* Reduce base font size across the site */
@@ -35,8 +36,8 @@ body {
 
 /* Make the sidebar avatar bigger */
 .author__avatar {
-  width: 150px !important;
-  height: 150px !important;
+  width: 130px !important;
+  height: 130px !important;
   /* if you want it perfectly round: */
   border-radius: 0;
   object-fit: cover !important;
