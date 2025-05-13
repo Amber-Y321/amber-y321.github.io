@@ -35,8 +35,8 @@ body {
 
 /* Make the sidebar avatar bigger */
 .author__avatar {
-  width: 60px !important;
-  height: 60px !important;
+  width: 175px !important;
+  height: 175px !important;
   /* if you want it perfectly round: */
   border-radius: 0;
   object-fit: cover !important;
