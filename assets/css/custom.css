@@ -47,8 +47,8 @@ body {
    1) Give the masthead more vertical padding 
 —————————————————————————————————————————————— */
 #masthead, .masthead {
-  padding-top:    0.8rem !important;  /* ↑ adjust to taste */
-  padding-bottom: 0.6rem !important;  /* ↑ adjust to taste */
+  padding-top:    0.6rem !important;  /* ↑ adjust to taste */
+  padding-bottom: 0.4rem !important;  /* ↑ adjust to taste */
 }
 
 /* —————————————————————————————————————————————— 
@@ -56,8 +56,8 @@ body {
 —————————————————————————————————————————————— */
 #masthead nav a,
 .masthead nav a {
-  font-size: 1.1rem !important;      /* ↑ tweak up/down */
-  padding:   1rem 2rem !important;   /* ↑ vertical/horizontal breathing room */
+  font-size: 0.8rem !important;      /* ↑ tweak up/down */
+  padding:   0.5rem 1rem !important;   /* ↑ vertical/horizontal breathing room */
   margin:    0 0.5rem !important;    /* optional spacing between items */
 }
 
