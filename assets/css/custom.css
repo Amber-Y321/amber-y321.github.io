@@ -20,7 +20,7 @@ h3 {
 
 /* Controls the readable middle content width */
 .page__content {
-  max-width: 2500px !important;
+  max-width: 2100px !important;
 }
 
 /* 	Reduces sidebar width */
@@ -37,7 +37,7 @@ body {
 /* Make the sidebar avatar bigger */
 .author__avatar {
   width: 130px !important;
-  height: 130px !important;
+  height: 100px !important;
   /* if you want it perfectly round: */
   border-radius: 0;
   object-fit: cover !important;
