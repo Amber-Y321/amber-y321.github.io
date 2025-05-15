@@ -29,8 +29,8 @@ h3 {
 
 /* 	Reduces sidebar width */
 .sidebar {
-  width: 200px; /* default is ~250px */
-  margin-left: 0.5rem !important; 
+  width: 180px; /* default is ~250px */
+  margin-left: 0.2rem !important; 
 }
 
 /* Reduce base font size across the site */
