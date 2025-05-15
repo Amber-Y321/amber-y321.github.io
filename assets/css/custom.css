@@ -15,12 +15,12 @@ h3 {
 
 /* 	This sets the full container width */
 .wrap {
-  max-width: 2000px !important;
+  max-width: 1800px !important;
 }
 
 /* Controls the readable middle content width */
 .page__content {
-  max-width: 1900px !important;
+  max-width: 1800px !important;
 }
 
 /* 	Reduces sidebar width */
