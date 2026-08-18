@@ -7,7 +7,7 @@ author_profile: true
 <br>
 <br>
 
-Hi there, I'm Yahan! 👋  I've got 4 years of analytics and consulting experience across ecommerce, retail, and healthcare—using SQL, Python, dashboards, experimentation, and stakeholder-ready recommendations.
+Hi there, I'm Yahan! 👋  I've got 5 years of analytics and consulting experience across ecommerce, retail, and healthcare—using SQL, Python, dashboards, experimentation, and stakeholder-ready recommendations.
 - Ecommerce & Retail: revenue drivers, customer segmentation, marketing investment, assortment, and store strategy.
 - Healthcare & Life Sciences: patient journey analytics, medication market mapping, healthcare operations, and resource-allocation modeling.
 
