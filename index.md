@@ -1,10 +1,9 @@
 ---
 layout: single
-title: "Welcome to My 2nd Brain!"
+title: "Business & Ecommerce Analytics Portfolio!"
 permalink: /
 author_profile: true
 ---
-**🕒 Last updated:** _May 12, 2025_
 <br>
 <br>
 
