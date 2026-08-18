@@ -10,6 +10,7 @@ author_profile: true
 Hi there, I'm Yahan! 👋  I've got 5 years of analytics and consulting experience across ecommerce, retail, and healthcare—using SQL, Python, dashboards, experimentation, and stakeholder-ready recommendations.
 - Ecommerce & Retail: revenue drivers, customer segmentation, marketing investment, assortment, and store strategy.
 - Healthcare & Life Sciences: patient journey analytics, medication market mapping, healthcare operations, and resource-allocation modeling.
+- AI Products & Decision Tools: LLM-powered applications, analytical copilots, workflow automation, recommendation systems, and human-centered AI tools.
 
 
 📄 **[Download Resume](materials/Resume%20of%20Yahan_2025.pdf)**
@@ -17,7 +18,7 @@ Hi there, I'm Yahan! 👋  I've got 5 years of analytics and consulting experien
 
 ---
 
-## 🧠 Ongoing Work @ LuxCouture - End-to-End Customer Insights
+## Ecommerce Analytics Command Center
   <p><strong>Role:</strong> Data Consultant </p>
   <p><strong>Tool:</strong> Python, Streamlit, Github, Shopify API, GA4 API, GPT</p>
   <p><strong>Python Packages:</strong> Pandas, Numpy, Plotly, Seaborn, scikit-learn </p>
