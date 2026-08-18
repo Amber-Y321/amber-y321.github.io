@@ -7,18 +7,13 @@ author_profile: true
 <br>
 <br>
 
-Hi there, I'm Yahan! 👋  A **data scientist** who tells data stories using **data analytics, machine learning and AI tools**.
+Hi there, I'm Yahan! 👋  I've got 4 years of analytics and consulting experience across ecommerce, retail, and healthcare—using SQL, Python, dashboards, experimentation, and stakeholder-ready recommendations.
+- Ecommerce & Retail: revenue drivers, customer segmentation, marketing investment, assortment, and store strategy.
+- Healthcare & Life Sciences: patient journey analytics, medication market mapping, healthcare operations, and resource-allocation modeling.
+
 
 📄 **[Download Resume](materials/Resume%20of%20Yahan_2025.pdf)**
 
----
-## 📦 What I Bring to the Table
-
-- 4 years in **data analytics**, **machine learning modeling**, delivering measurable and actionable business outcomes.
-- Actively exploring and applying cutting-edge **AI tools** to deliver practical solutions and enhance efficiency.
-- Proven impact in **E-commerce customer targeting**, **Retail analytics**, **Patient journey analytics** and **Medication market mapping**.
-- Proficient in **Python, SQL, OpenAI GPT, AWS, Snowflake** and **Tableau**.
-- Strong communicator and Proactive team player.
 
 ---
 
