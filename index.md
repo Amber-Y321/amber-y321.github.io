@@ -19,6 +19,8 @@ Hi there, I'm Yahan! 👋  I've got 5 years of analytics and consulting experien
 ---
 
 ## Ecommerce Analytics Command Center
+A decision-support system that consolidated sales, customer, product, marketing, and location analysis for a boutique retailer.
+
   <p><strong>Role:</strong> Data Consultant </p>
   <p><strong>Tool:</strong> Python, Streamlit, Github, Shopify API, GA4 API, GPT</p>
   <p><strong>Python Packages:</strong> Pandas, Numpy, Plotly, Seaborn, scikit-learn </p>
