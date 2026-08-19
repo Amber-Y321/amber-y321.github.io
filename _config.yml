@@ -1,0 +1,51 @@
+# Site identity
+title: "Yahan Yang | Business & Ecommerce Analytics"
+author: "Yahan Yang"
+description: "Business and ecommerce analytics portfolio featuring decision-support dashboards, customer analytics, marketing measurement, and operational strategy."
+url: "https://amber-y321.github.io"
+baseurl: ""
+
+# Theme and GitHub Pages
+remote_theme: "mmistakes/minimal-mistakes"
+minimal_mistakes_skin: "default"
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-feed
+
+defaults:
+  - scope:
+      path: ""
+    values:
+      css: "/assets/css/custom.css"
+
+author:
+  name: "Yahan Yang"
+  avatar: "/materials/profile_photo.jpg"
+  bio: "Business & Ecommerce Analytics | Decision Support"
+  location: "Boston, MA"
+  links:
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:yangyahan0321@gmail.com"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/amber-y321"
+    - label: "Résumé"
+      icon: "fas fa-fw fa-file-alt"
+      url: "/materials/Resume%20of%20Yahan_2025.pdf"
+
+social:
+  github: amber-y321
+  email: yangyahan0321@gmail.com
+
+sidebar:
+  nav: "main"
+  title: "Yahan Yang"
+  description: "Business Analytics | Ecommerce | Operations"
+  social_links: true
+  sticky: true
+  show: true
+  avatar: "/materials/profile_photo.jpg"
