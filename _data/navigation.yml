@@ -1,13 +1,10 @@
 
 main:
-  # - title: "Home"
-  #   url: /
-  # - title: "Projects"
-  #   url: /projects/
+  - title: "Work"
+    url: /#selected-work
+  - title: "Case Study"
+    url: /projects/ecommerce-command-center/
   - title: "About"
     url: /about/
-  # - title: "Blog"
-  #   url: /blog/
-  # - title: "Contact"
-  #   url: /contact/
-
+  - title: "Résumé"
+    url: /materials/Resume%20of%20Yahan_2025.pdf
