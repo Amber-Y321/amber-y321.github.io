@@ -7,8 +7,7 @@ classes: wide
 ---
 
 <section class="portfolio-hero">
-  <p class="eyebrow">BUSINESS · ECOMMERCE · OPERATIONS ANALYTICS</p>
-  <h1>Turning fragmented data into clear business decisions.</h1>
+  <p class="eyebrow">Turning fragmented data into clear business decisions.</p>
   <p class="hero-summary">Hi, I'm Yahan Yang👋, an analytics professional with 5 years of experience translating customer, revenue, marketing, and operational data into recommendations leaders can act on.</p>
   <div class="hero-actions">
     <a class="button button--primary" href="/projects/ecommerce-command-center/">View featured case study</a>
