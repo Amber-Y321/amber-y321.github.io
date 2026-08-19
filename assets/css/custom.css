@@ -1,74 +1,231 @@
+:root {
+  --portfolio-ink: #17252a;
+  --portfolio-muted: #5d6b70;
+  --portfolio-accent: #176b68;
+  --portfolio-accent-dark: #0f4f4d;
+  --portfolio-surface: #f3f7f6;
+  --portfolio-border: #dce6e3;
+}
+
 body {
-  background-color: #f9f9f9 !important;
+  background: #fbfcfc !important;
+  color: var(--portfolio-ink);
+  font-size: 16px;
 }
 
-/* Optional: reduce heading sizes */
-h1 {
-  font-size: 1.8em;
-}
-h2 {
-  font-size: 1.4em;
-}
-h3 {
-  font-size: 1.2em;
-}
-
-/* 	This sets the full container width */
-.wrap {
-  max-width: 1500px !important;
-}
-
-/* Controls the readable middle content width */
 .page__content {
-  max-width: 1500px !important;
+  max-width: 960px !important;
 }
 
-.main-content {
-  margin-left: 1rem !important;   /* increase/decrease as you like */
+.wide .page__content {
+  max-width: 1180px !important;
 }
 
-/* 	Reduces sidebar width */
-.sidebar {
-  width: 180px; /* default is ~250px */
-  margin-left: 0.2rem !important; 
+.page__content h1,
+.page__content h2,
+.page__content h3 {
+  color: var(--portfolio-ink);
+  line-height: 1.18;
 }
 
-/* Reduce base font size across the site */
-body {
-  font-size: 16px;  /* Default is around 16px */
+.page__content h1 { font-size: clamp(2.35rem, 6vw, 4.6rem); }
+.page__content h2 { font-size: clamp(1.65rem, 3vw, 2.45rem); }
+.page__content h3 { font-size: 1.12rem; }
+
+.page__content p,
+.page__content li {
+  line-height: 1.7;
 }
 
-/* Make the sidebar avatar bigger */
-.author__avatar {
-  width: 130px !important;
+.portfolio-hero,
+.case-hero {
+  padding: 4.25rem 0 3.5rem;
+  border-bottom: 1px solid var(--portfolio-border);
+}
+
+.portfolio-hero h1,
+.case-hero h1 {
+  max-width: 900px;
+  margin: 0.25rem 0 1.25rem;
+  letter-spacing: -0.04em;
+}
+
+.eyebrow {
+  margin: 0 0 0.8rem !important;
+  color: var(--portfolio-accent);
+  font-size: 0.76rem;
+  font-weight: 800;
+  letter-spacing: 0.13em;
+}
+
+.hero-summary,
+.section-lead {
+  max-width: 780px;
+  color: var(--portfolio-muted);
+  font-size: 1.18rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.8rem;
+  margin-top: 1.7rem;
+}
+
+.button {
+  display: inline-block;
+  padding: 0.8rem 1.1rem;
+  border: 1px solid var(--portfolio-accent);
+  border-radius: 4px;
+  font-size: 0.9rem;
+  font-weight: 700;
+  text-decoration: none !important;
+}
+
+.button--primary { background: var(--portfolio-accent); color: #fff !important; }
+.button--primary:hover { background: var(--portfolio-accent-dark); }
+.button--secondary { color: var(--portfolio-accent) !important; }
+
+.portfolio-section {
+  padding: 4rem 0;
+  border-bottom: 1px solid var(--portfolio-border);
+}
+
+.metric-grid,
+.decision-grid,
+.capability-grid,
+.brief-grid {
+  display: grid;
+  gap: 1rem;
+  margin: 2rem 0;
+}
+
+.metric-grid { grid-template-columns: repeat(3, 1fr); }
+.decision-grid, .brief-grid { grid-template-columns: repeat(2, 1fr); }
+.capability-grid { grid-template-columns: repeat(3, 1fr); }
+
+.metric-card,
+.decision-grid article,
+.capability-grid article,
+.brief-grid article {
+  padding: 1.35rem;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 6px;
+  background: #fff;
+}
+
+.metric-card strong {
+  display: block;
+  margin-bottom: 0.45rem;
+  color: var(--portfolio-accent);
+  font-size: 2rem;
+}
+
+.metric-card span,
+.decision-grid p,
+.capability-grid p,
+.brief-grid p,
+.project-list span {
+  color: var(--portfolio-muted);
+}
+
+.decision-grid article > span {
+  color: var(--portfolio-accent);
+  font-size: 0.75rem;
+  font-weight: 800;
+}
+
+.case-preview,
+.case-hero-image {
+  margin: 2.25rem 0;
+  padding: 1rem;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 8px;
+  background: var(--portfolio-surface);
+}
+
+.case-preview img,
+.case-hero-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.text-link {
+  color: var(--portfolio-accent) !important;
+  font-weight: 800;
+}
+
+.project-list a {
+  display: grid;
+  gap: 0.3rem;
+  padding: 1rem 0;
+  border-bottom: 1px solid var(--portfolio-border);
+  text-decoration: none;
+}
+
+.workstream {
+  display: grid;
+  grid-template-columns: 70px 1fr;
+  gap: 1.2rem;
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--portfolio-border);
+}
+
+.workstream-number {
+  color: var(--portfolio-accent);
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+.decision-enabled,
+.note {
+  padding: 1rem 1.15rem;
+  border-left: 3px solid var(--portfolio-accent);
+  background: var(--portfolio-surface);
+}
+
+.problem-list {
+  max-width: 850px;
+}
+
+.tech-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.55rem;
+  padding: 0 !important;
+  list-style: none;
+}
+
+.tech-list li {
+  padding: 0.35rem 0.65rem;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 999px;
+  background: #fff;
+  font-size: 0.85rem;
+}
+
+.contact-band {
+  margin: 4rem 0 1rem;
+  padding: 2.25rem;
+  border-radius: 8px;
+  background: var(--portfolio-ink);
+  color: #fff;
+}
+
+.contact-band h2 { color: #fff; }
+.contact-band a { color: #9ee2da; }
+
+.author__avatar img {
+  width: 120px !important;
   height: 120px !important;
-  /* if you want it perfectly round: */
-  border-radius: 0;
-  object-fit: cover !important;
-  margin-bottom: 0.5rem !important;
+  object-fit: cover;
 }
 
-/* (Optional) Also pull up the intro text if needed */
-.author__bio {
-  margin-top: 0 !important;          /* or use a small value like 0.25rem */
+@media (max-width: 780px) {
+  .portfolio-hero, .case-hero, .portfolio-section { padding: 2.6rem 0; }
+  .metric-grid, .decision-grid, .capability-grid, .brief-grid { grid-template-columns: 1fr; }
+  .workstream { grid-template-columns: 1fr; gap: 0; }
+  .contact-band { padding: 1.5rem; }
 }
-
-
-/* —————————————————————————————————————————————— 
-   1) Give the masthead more vertical padding 
-—————————————————————————————————————————————— */
-#masthead, .masthead {
-  padding-top:    0.5rem !important;  /* ↑ adjust to taste */
-  padding-bottom: 0.2rem !important;  /* ↑ adjust to taste */
-}
-
-/* —————————————————————————————————————————————— 
-   2) Enlarge every link inside the masthead nav 
-—————————————————————————————————————————————— */
-#masthead nav a,
-.masthead nav a {
-  font-size: 0.9rem !important;      /* ↑ tweak up/down */
-  padding:   0.5rem 1rem !important;   /* ↑ vertical/horizontal breathing room */
-  margin:    0 0.5rem !important;    /* optional spacing between items */
-}
-
