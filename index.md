@@ -11,17 +11,10 @@ classes: wide
   <p class="hero-summary">Hi, I'm Yahan. I turn customer, revenue, marketing, and operational data into actions leaders can prioritize.</p>
   <div class="hero-actions">
     <a class="button button--primary" href="#selected-work">Explore the command center</a>
-    <a class="button button--secondary" href="/materials/Resume%20of%20Yahan_2025.pdf">Download resume</a>
-  </div>
-  <div class="project-explore" aria-label="More analytical projects">
-    <span>More projects</span>
-    <a href="https://github.com/amber-y321/Hospitalization-simulation">Healthcare Operations Simulation ↗</a>
-    <a href="https://github.com/amber-y321/Emotion-Detection">Emotion Recognition ↗</a>
   </div>
 </section>
 
 <section class="portfolio-section" id="selected-work">
-  <p class="eyebrow">SELECTED CASE STUDY</p>
   <h2>Four decisions. One ecommerce command center.</h2>
   <p class="section-lead">Built for a boutique retailer to connect business health, revenue drivers, marketing allocation, and store relocation in one operating view.</p>
 
@@ -87,6 +80,6 @@ classes: wide
 </section>
 
 <section class="contact-band" id="contact">
-  <h2>Let's Connect!</h2>
-  <p><a href="mailto:yangyahan0321@gmail.com">yangyahan0321@gmail.com</a> · <a href="https://github.com/amber-y321">GitHub</a></p>
+  <h2>Let's connect.</h2>
+  <p>For analytics opportunities and project conversations: <a href="mailto:yangyahan0321@gmail.com">yangyahan0321@gmail.com</a> · <a href="https://github.com/amber-y321">GitHub</a></p>
 </section>
