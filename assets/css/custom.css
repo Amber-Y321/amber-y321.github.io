@@ -93,6 +93,7 @@ body {
 }
 
 .metric-grid,
+.impact-grid,
 .brief-grid {
   display: grid;
   gap: 1rem;
@@ -100,6 +101,7 @@ body {
 }
 
 .metric-grid { grid-template-columns: repeat(3, 1fr); }
+.impact-grid { grid-template-columns: repeat(2, 1fr); }
 .brief-grid { grid-template-columns: repeat(2, 1fr); }
 
 .metric-card,
@@ -130,96 +132,63 @@ body {
   gap: 1.2rem;
 }
 
-.workflow {
+.project-snapshot {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 2rem;
-  margin: 1.5rem 0 2.25rem;
-}
-
-.workflow-step {
-  position: relative;
-  display: flex;
-  align-items: flex-start;
-  gap: 0.8rem;
-  padding: 1.1rem;
+  margin: 1.5rem 0 0;
+  overflow: hidden;
   border: 1px solid var(--portfolio-border);
-  border-radius: 14px;
-  background: #fff;
-  box-shadow: 0 10px 28px rgba(23, 37, 42, 0.06);
+  border-radius: 8px;
+  background: var(--portfolio-surface);
 }
 
-.workflow-step:not(:last-child)::after {
-  content: "→";
-  position: absolute;
-  top: 50%;
-  right: -1.55rem;
-  color: var(--portfolio-accent);
-  font-size: 1.4rem;
-  font-weight: 800;
-  transform: translateY(-50%);
-}
-
-.workflow-number {
+.project-snapshot > div {
   display: grid;
-  flex: 0 0 2.25rem;
-  width: 2.25rem;
-  height: 2.25rem;
-  place-items: center;
-  border-radius: 50%;
-  background: var(--portfolio-accent);
-  color: #fff;
-  font-size: 0.7rem;
-  font-weight: 800;
+  gap: 0.25rem;
+  padding: 0.85rem 1rem;
+  border-right: 1px solid var(--portfolio-border);
 }
-
-.workflow-step div { display: grid; gap: 0.2rem; }
-.workflow-step small {
+.project-snapshot > div:last-child { border-right: 0; }
+.project-snapshot span {
   color: var(--portfolio-accent);
-  font-size: 0.66rem;
+  font-size: 0.64rem;
   font-weight: 800;
   letter-spacing: 0.08em;
 }
-.workflow-step strong { color: var(--portfolio-ink); }
-.workflow-step p { margin: 0; color: var(--portfolio-muted); font-size: 0.82rem; line-height: 1.45; }
+.project-snapshot strong { color: var(--portfolio-ink); font-size: 0.86rem; }
 
-.decision-map-title { margin: 2.5rem 0 1rem; }
-.decision-map {
+.management-grid-title { margin: 2.5rem 0 1rem; }
+.management-grid {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 0.9rem;
-  margin-bottom: 2rem;
+  margin-bottom: 1.25rem;
 }
 
-.decision-map details {
-  padding: 0;
-  overflow: hidden;
+.management-grid a {
+  display: block;
+  padding: 1.2rem;
   border: 1px solid var(--portfolio-border);
-  border-radius: 10px;
+  border-radius: 8px;
   background: #fff;
+  color: inherit;
+  text-decoration: none;
+  transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
 }
-
-.decision-map details[open] { border-color: var(--portfolio-accent); box-shadow: 0 10px 30px rgba(23, 107, 104, 0.09); }
-.decision-map summary {
-  display: grid;
-  grid-template-columns: auto 1fr;
-  gap: 0.2rem 0.75rem;
-  padding: 1rem 1.1rem;
-  cursor: pointer;
-  list-style: none;
+.management-grid a:hover {
+  border-color: var(--portfolio-accent);
+  box-shadow: 0 10px 28px rgba(23, 107, 104, 0.09);
+  transform: translateY(-2px);
 }
-.decision-map summary::-webkit-details-marker { display: none; }
-.decision-map summary span {
-  grid-row: 1 / 3;
-  align-self: center;
+.management-grid span {
   color: var(--portfolio-accent);
-  font-size: 1.25rem;
+  font-size: 0.67rem;
   font-weight: 800;
+  letter-spacing: 0.07em;
 }
-.decision-map summary strong { color: var(--portfolio-ink); }
-.decision-map summary small { color: var(--portfolio-muted); }
-.decision-map details > p { margin: 0; padding: 0 1.1rem 0.9rem; color: var(--portfolio-muted); }
-.decision-map .decision-output { padding-top: 0.85rem; border-top: 1px solid var(--portfolio-border); color: var(--portfolio-accent-dark); }
+.management-grid h3 { margin: 0.55rem 0 0.75rem; font-size: 1.05rem; }
+.management-grid p { margin: 0 0 0.7rem; color: var(--portfolio-muted); font-size: 0.83rem; }
+.management-grid small { color: var(--portfolio-accent); font-weight: 800; }
 
 .case-preview,
 .case-hero-image {
@@ -325,10 +294,9 @@ body {
 
 @media (max-width: 780px) {
   .portfolio-hero, .case-hero, .portfolio-section { padding: 2.2rem 0; }
-  .metric-grid, .brief-grid { grid-template-columns: 1fr; }
+  .metric-grid, .impact-grid, .brief-grid, .project-snapshot, .management-grid { grid-template-columns: 1fr; }
+  .project-snapshot > div { border-right: 0; border-bottom: 1px solid var(--portfolio-border); }
+  .project-snapshot > div:last-child { border-bottom: 0; }
   .workstream { grid-template-columns: 1fr; gap: 0; }
   .contact-band { padding: 1.35rem; }
-  .workflow, .decision-map { grid-template-columns: 1fr; }
-  .workflow { gap: 1.8rem; }
-  .workflow-step:not(:last-child)::after { content: "↓"; top: auto; right: 50%; bottom: -1.55rem; transform: translateX(50%); }
 }
