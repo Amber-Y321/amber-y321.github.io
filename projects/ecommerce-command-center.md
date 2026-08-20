@@ -47,22 +47,22 @@ description: "A consulting-style analytics case study spanning executive perform
   <p class="eyebrow">ANALYTICAL APPROACH</p>
   <h2>Four pages, each anchored to a management decision.</h2>
 
-  <article class="workstream">
+  <article class="workstream" id="executive-overview">
     <div class="workstream-number">01</div>
     <div><h3>Executive Overview</h3><p><strong>Business question:</strong> Is performance healthy, and what deserves attention first?</p><p>The page combines top-level revenue, order, customer, and return indicators with time trends and category contribution so leaders can move from a headline result to its likely drivers.</p><p class="decision-enabled"><strong>Decision enabled:</strong> Prioritize the performance issue or opportunity that warrants deeper investigation.</p></div>
   </article>
 
-  <article class="workstream">
+  <article class="workstream" id="revenue-assortment">
     <div class="workstream-number">02</div>
     <div><h3>Revenue Drivers & Assortment Strategy</h3><p><strong>Business question:</strong> Which customers and products create sustainable revenue?</p><p>The analysis separates volume, value, product mix, and customer behavior to identify concentration, cross-sell patterns, and assortment opportunities.</p><p class="decision-enabled"><strong>Decision enabled:</strong> Protect productive categories, test cross-sell opportunities, and investigate weak or overly concentrated assortment areas.</p></div>
   </article>
 
-  <article class="workstream">
+  <article class="workstream" id="marketing-investment">
     <div class="workstream-number">03</div>
     <div><h3>Marketing Investment</h3><p><strong>Business question:</strong> Where should marketing effort and budget be focused?</p><p>Session, conversion, revenue, and customer-segment views connect acquisition activity to commercial outcomes instead of treating traffic as the final result.</p><p class="decision-enabled"><strong>Decision enabled:</strong> Reallocate spend and campaign attention toward higher-value audiences and measurable funnel gaps.</p></div>
   </article>
 
-  <article class="workstream">
+  <article class="workstream" id="relocation-scenario">
     <div class="workstream-number">04</div>
     <div><h3>Store Relocation Scenario Analysis</h3><p><strong>Business question:</strong> Under what conditions would relocation improve the business?</p><p>The scenario analysis exposes assumptions, compares outcomes, and separates known performance from estimated effects so stakeholders can evaluate risk.</p><p class="decision-enabled"><strong>Decision enabled:</strong> Compare relocation options using an explicit set of commercial and operational assumptions.</p></div>
   </article>
