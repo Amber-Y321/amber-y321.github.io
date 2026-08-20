@@ -1,25 +1,24 @@
 ---
 layout: single
-title: "Business & Ecommerce Analytics Portfolio"
+title: ""
 permalink: /
 author_profile: true
 classes: wide
 ---
 
 <section class="portfolio-hero">
-  <p class="eyebrow">BUSINESS · ECOMMERCE · OPERATIONS ANALYTICS</p>
-  <h1>Turning fragmented data into clear business decisions.</h1>
-  <p class="hero-summary">I'm Yahan Yang, an analytics professional with four years of experience translating customer, revenue, marketing, and operational data into recommendations leaders can act on.</p>
+  <h1>Business & ecommerce analytics for clearer decisions.</h1>
+  <p class="hero-summary">Hi, I'm Yahan. I turn customer, revenue, marketing, and operational data into actions leaders can prioritize.</p>
   <div class="hero-actions">
-    <a class="button button--primary" href="/projects/ecommerce-command-center/">View featured case study</a>
+    <a class="button button--primary" href="#selected-work">Explore the command center</a>
     <a class="button button--secondary" href="/materials/Resume%20of%20Yahan_2025.pdf">Download resume</a>
   </div>
 </section>
 
 <section class="portfolio-section" id="selected-work">
   <p class="eyebrow">SELECTED CASE STUDY</p>
-  <h2>Ecommerce Analytics Command Center</h2>
-  <p class="section-lead">One management system for four connected decisions: business health, growth drivers, marketing allocation, and store relocation.</p>
+  <h2>Four decisions. One ecommerce command center.</h2>
+  <p class="section-lead">Built for a boutique retailer to connect business health, revenue drivers, marketing allocation, and store relocation in one operating view.</p>
 
   <div class="metric-grid" aria-label="Selected project results">
     <div class="metric-card">
@@ -30,7 +29,13 @@ classes: wide
       <strong>+49%</strong>
       <span>year-over-year growth in online sessions during the same period</span>
     </div>
-    <div class="metric-card"><strong>1 system</strong><span>connecting executive, commercial, marketing, and location decisions</span></div>
+    <div class="metric-card"><strong>4 views</strong><span>built around recurring management decisions</span></div>
+  </div>
+
+  <div class="build-strip" aria-label="How the command center was built">
+    <div><span>CONNECT</span><strong>Shopify + GA4</strong><small>Sales, customers, products, and sessions</small></div>
+    <div><span>DIAGNOSE</span><strong>Drivers + segments</strong><small>Revenue contribution, behavior, and funnel performance</small></div>
+    <div><span>OPERATIONALIZE</span><strong>Decisions + scenarios</strong><small>Priorities, tradeoffs, and recommended actions</small></div>
   </div>
 
   <div class="decision-system">
@@ -77,28 +82,6 @@ classes: wide
   <div class="case-actions">
     <a class="button button--primary" href="/projects/ecommerce-command-center/">See the analysis and recommendations</a>
     <a class="text-link" href="https://github.com/amber-y321/Customer_Behavior_Dashboard">View technical repository ↗</a>
-  </div>
-</section>
-
-<section class="portfolio-section proof-section" id="proof">
-  <p class="eyebrow">WHAT I ACTUALLY DELIVERED</p>
-  <h2>From raw signals to a repeatable management tool.</h2>
-  <div class="proof-flow">
-    <article>
-      <span>01 · CONNECT</span>
-      <h3>Unified the operating picture</h3>
-      <p>Integrated Shopify sales, customer, product, and GA4 session data into one analysis-ready workflow.</p>
-    </article>
-    <article>
-      <span>02 · DIAGNOSE</span>
-      <h3>Made the drivers visible</h3>
-      <p>Engineered customer and product features, analyzed revenue contribution, and built behavioral segments.</p>
-    </article>
-    <article>
-      <span>03 · OPERATIONALIZE</span>
-      <h3>Turned findings into decisions</h3>
-      <p>Converted the analysis into four management views with explicit questions, tradeoffs, and next actions.</p>
-    </article>
   </div>
 </section>
 
