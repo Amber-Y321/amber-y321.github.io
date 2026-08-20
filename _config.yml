@@ -1,5 +1,5 @@
 # Site identity
-title: "Home | My Portfolio"
+title: "Yahan Yang | Business & Ecommerce Analytics"
 author: "Yahan Yang"
 description: "Business and ecommerce analytics portfolio featuring decision-support dashboards, customer analytics, marketing measurement, and operational strategy."
 url: "https://amber-y321.github.io"
@@ -15,16 +15,10 @@ plugins:
   - jekyll-seo-tag
   - jekyll-feed
 
-defaults:
-  - scope:
-      path: ""
-    values:
-      css: "/assets/css/custom.css"
-
 author:
   name: "Yahan Yang"
   avatar: "/materials/profile_photo.jpg"
-  bio: "Analytical, Organized, Logical Decision Making"
+  bio: "Business & Ecommerce Analytics | Decision Support"
   location: "Boston, MA"
   links:
     - label: "Email"
