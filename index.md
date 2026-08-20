@@ -10,13 +10,13 @@ classes: wide
   <h1>Analytics for clearer commercial and operational decisions.</h1>
   <p class="hero-summary">Hi, I'm Yahan. With 5 years of experience across ecommerce and healthcare, I turn customer, patient, revenue, marketing, and operational data into priorities leaders can act on.</p>
   <div class="hero-actions">
-    <a class="button button--primary" href="#selected-work">Explore the command center</a>
+    <a class="button button--primary" href="#selected-work">Explore the E-commerice command center</a>
   </div>
 </section>
 
 <section class="portfolio-section" id="selected-work">
-  <h2>Four decisions. One ecommerce command center.</h2>
-  <p class="section-lead">Built for a boutique retailer to connect business health, revenue drivers, marketing allocation, and store relocation in one operating view.</p>
+  <h2>E-commerce: Four decisions. One command center.</h2>
+  <p class="section-lead">Built for retailers to connect business health, revenue drivers, marketing allocation, and store relocation in one operating view.</p>
 
   <div class="metric-grid" aria-label="Selected project results">
     <div class="metric-card">
