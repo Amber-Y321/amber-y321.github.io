@@ -9,12 +9,15 @@ This folder contains replacement files for the existing GitHub Pages repository.
 - `_data/navigation.yml`
 - `about.md`
 - `assets/css/custom.css`
+- `_includes/head/custom.html`
 
 ## Add one new file
 
 - `projects/ecommerce-command-center.md`
 
 Existing files in `materials/` remain unchanged. The current `GIF_Dashboard.gif`, profile photo, and resume paths are reused.
+
+`_includes/head/custom.html` loads the portfolio stylesheet through the Minimal Mistakes theme. The former `defaults.css` setting in `_config.yml` was removed because the theme does not render it as a stylesheet link.
 
 ## Before publishing
 
