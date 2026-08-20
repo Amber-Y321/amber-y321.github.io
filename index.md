@@ -7,8 +7,8 @@ classes: wide
 ---
 
 <section class="portfolio-hero">
-  <h1>Business & ecommerce analytics for clearer decisions.</h1>
-  <p class="hero-summary">Hi, I'm Yahan. I turn customer, revenue, marketing, and operational data into actions leaders can prioritize.</p>
+  <h1>Analytics for clearer commercial and operational decisions.</h1>
+  <p class="hero-summary">Hi, I'm Yahan. With 5 years of experience across ecommerce and healthcare, I turn customer, patient, revenue, marketing, and operational data into priorities leaders can act on.</p>
   <div class="hero-actions">
     <a class="button button--primary" href="#selected-work">Explore the command center</a>
   </div>
