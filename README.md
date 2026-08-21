@@ -17,6 +17,8 @@ This folder contains replacement files for the existing GitHub Pages repository.
 
 Existing files in `materials/` remain unchanged. The current `GIF_Dashboard.gif`, profile photo, and resume paths are reused.
 
+Add the light-mode dashboard captures in `materials/ecommerce-command-center/`. Each dashboard page is represented by multiple section-level screenshots so charts remain readable while the full analytical flow is covered.
+
 `_includes/head/custom.html` loads the portfolio stylesheet through the Minimal Mistakes theme. The former `defaults.css` setting in `_config.yml` was removed because the theme does not render it as a stylesheet link.
 
 ## Before publishing
