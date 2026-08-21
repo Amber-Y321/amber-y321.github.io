@@ -207,6 +207,134 @@ body {
   margin: 0 auto;
 }
 
+figure figcaption {
+  margin-top: 0.65rem;
+  color: var(--portfolio-muted);
+  font-size: 0.75rem;
+  text-align: center;
+}
+
+.featured-dashboard-preview {
+  margin-top: 1.5rem;
+  background: #111218;
+}
+
+.case-facts {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  overflow: hidden;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 8px;
+  background: #fff;
+}
+
+.case-facts > div {
+  display: grid;
+  gap: 0.3rem;
+  padding: 1.1rem;
+  border-right: 1px solid var(--portfolio-border);
+}
+.case-facts > div:last-child { border-right: 0; }
+.case-facts span,
+.decision-index {
+  color: var(--portfolio-accent);
+  font-size: 0.67rem;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+.case-facts strong { color: var(--portfolio-ink); }
+.case-facts small { color: var(--portfolio-muted); line-height: 1.45; }
+
+.data-disclosure,
+.model-note {
+  margin-top: 1rem;
+  padding: 0.85rem 1rem;
+  border-left: 3px solid var(--portfolio-accent);
+  background: var(--portfolio-surface);
+  color: var(--portfolio-muted);
+  font-size: 0.82rem;
+  line-height: 1.55;
+}
+
+.tension-grid,
+.method-grid,
+.takeaway-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.9rem;
+  margin-top: 1.5rem;
+}
+
+.tension-grid article,
+.method-grid article {
+  padding: 1.15rem;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 8px;
+  background: #fff;
+}
+.tension-grid p,
+.method-grid p { margin-bottom: 0; color: var(--portfolio-muted); }
+
+.decision-case {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.6rem;
+  padding: 2.5rem 0;
+  border-bottom: 1px solid var(--portfolio-border);
+  scroll-margin-top: 2rem;
+}
+.decision-case:last-child { border-bottom: 0; }
+.decision-case h3 { margin: 0.55rem 0 1rem; font-size: 1.35rem; }
+.decision-copy > p { color: var(--portfolio-muted); }
+.decision-copy { max-width: 900px; }
+
+.dashboard-gallery {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.dashboard-gallery figure {
+  margin: 0;
+  overflow: hidden;
+  border: 1px solid var(--portfolio-border);
+  border-radius: 8px;
+  background: #fff;
+}
+.dashboard-gallery figure a { display: block; }
+.dashboard-gallery figure img {
+  display: block;
+  width: 100%;
+  height: auto;
+  transition: transform 160ms ease;
+}
+.dashboard-gallery figure a:hover img { transform: scale(1.01); }
+.dashboard-gallery figcaption { padding: 0 0.7rem 0.7rem; }
+
+.method-grid { grid-template-columns: repeat(4, 1fr); }
+.method-grid article > span {
+  display: grid;
+  width: 2rem;
+  height: 2rem;
+  margin-bottom: 0.75rem;
+  place-items: center;
+  border-radius: 50%;
+  background: var(--portfolio-accent);
+  color: #fff;
+  font-size: 0.7rem;
+  font-weight: 800;
+}
+
+.takeaway-grid p {
+  margin: 0;
+  padding: 1rem 0;
+  border-top: 1px solid var(--portfolio-border);
+  color: var(--portfolio-muted);
+}
+.takeaway-grid strong { color: var(--portfolio-ink); }
+
+.management-grid p strong { color: var(--portfolio-ink); }
+
 .text-link {
   color: var(--portfolio-accent) !important;
   font-weight: 800;
@@ -294,9 +422,12 @@ body {
 
 @media (max-width: 780px) {
   .portfolio-hero, .case-hero, .portfolio-section { padding: 2.2rem 0; }
-  .metric-grid, .impact-grid, .brief-grid, .project-snapshot, .management-grid { grid-template-columns: 1fr; }
+  .metric-grid, .impact-grid, .brief-grid, .project-snapshot, .management-grid, .case-facts, .tension-grid, .method-grid, .takeaway-grid, .decision-case, .dashboard-gallery { grid-template-columns: 1fr; }
   .project-snapshot > div { border-right: 0; border-bottom: 1px solid var(--portfolio-border); }
   .project-snapshot > div:last-child { border-bottom: 0; }
+  .case-facts > div { border-right: 0; border-bottom: 1px solid var(--portfolio-border); }
+  .case-facts > div:last-child { border-bottom: 0; }
+  .decision-case { gap: 1rem; padding: 2rem 0; }
   .workstream { grid-template-columns: 1fr; gap: 0; }
   .contact-band { padding: 1.35rem; }
 }
