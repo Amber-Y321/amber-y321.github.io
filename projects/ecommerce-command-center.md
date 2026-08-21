@@ -2,7 +2,7 @@
 layout: single
 title: "Ecommerce Analytics Command Center"
 permalink: /projects/ecommerce-command-center/
-author_profile: false
+author_profile: true
 classes: wide
 description: "A decision-support analytics case study connecting business health, assortment strategy, marketing investment, and store relocation."
 ---
