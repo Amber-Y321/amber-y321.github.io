@@ -12,7 +12,8 @@ description: "A consulting-style analytics case study spanning executive perform
   <h1>From fragmented retail data to one decision system.</h1>
   <p class="hero-summary">I designed an analytics command center for a boutique retailer that needed a clearer way to manage growth, product mix, marketing investment, and a potential store relocation.</p>
   <div class="hero-actions">
-    <a class="button button--primary" href="https://github.com/amber-y321/Customer_Behavior_Dashboard">View technical repository</a>
+    <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">View live dashboard ↗</a>
+    <a class="button button--secondary" href="https://github.com/amber-y321/Customer_Behavior_Dashboard">View technical repository</a>
     <a class="button button--secondary" href="/#contact">Contact me</a>
   </div>
 </section>
