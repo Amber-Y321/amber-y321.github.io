@@ -68,7 +68,8 @@ classes: wide
   </figure>
 
   <div class="case-actions">
-    <a class="button button--primary" href="/projects/ecommerce-command-center/">See the analysis and recommendations</a>
+    <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">View live dashboard ↗</a>
+    <a class="button button--secondary" href="/projects/ecommerce-command-center/">See the analysis and recommendations</a>
     <a class="text-link" href="https://github.com/amber-y321/Customer_Behavior_Dashboard">View technical repository ↗</a>
   </div>
 </section>
