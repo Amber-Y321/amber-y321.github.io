@@ -16,12 +16,12 @@ classes: wide
 
 <section class="portfolio-section" id="selected-work">
   <h2>E-commerce: Four decisions. One command center.</h2>
-  <p class="section-lead">Built for retailers to connect business health, revenue drivers, marketing allocation, and store relocation in one operating view.</p>
+  <p class="section-lead">I turned a boutique retailer's recurring questions about performance, assortment, marketing, and location strategy into one decision-support system.</p>
 
   <div class="project-snapshot" aria-label="Project scope">
     <div><span>ROLE</span><strong>Data Consultant</strong></div>
-    <div><span>DATA</span><strong>Shopify + GA4</strong></div>
-    <div><span>DELIVERABLE</span><strong>Decision-support command center</strong></div>
+    <div><span>METHOD</span><strong>Diagnostics + scenario modeling</strong></div>
+    <div><span>DELIVERABLE</span><strong>Four-page decision system</strong></div>
   </div>
 
   <div class="impact-grid" aria-label="Observed business results">
@@ -38,39 +38,49 @@ classes: wide
   <h3 class="management-grid-title">Four views, each tied to a management decision</h3>
   <div class="management-grid">
     <a href="/projects/ecommerce-command-center/#executive-overview">
-      <span>01 · BUSINESS HEALTH</span>
-      <h3>Where should leadership focus first?</h3>
-      <p>Executive Overview</p>
-      <small>Open analysis →</small>
+      <img class="management-card-visual" src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview dashboard preview">
+      <div class="management-card-copy">
+        <span>01 · BUSINESS HEALTH</span>
+        <h3>Where should leadership focus first?</h3>
+        <p><strong>Signal:</strong> 76% of modeled revenue concentrated in the leading category.</p>
+        <small>Executive Overview →</small>
+      </div>
     </a>
     <a href="/projects/ecommerce-command-center/#revenue-assortment">
-      <span>02 · GROWTH LEVERS</span>
-      <h3>What should we promote, expand, or rationalize?</h3>
-      <p>Revenue Drivers & Assortment</p>
-      <small>Open analysis →</small>
+      <img class="management-card-visual" src="/materials/ecommerce-command-center/revenue-03-profit-effort.png" alt="Profit-to-effort assortment strategy dashboard preview">
+      <div class="management-card-copy">
+        <span>02 · GROWTH LEVERS</span>
+        <h3>What should we promote, expand, or rationalize?</h3>
+        <p><strong>Action:</strong> Test a gradual shift toward higher-profit, lower-effort products.</p>
+        <small>Revenue & Assortment →</small>
+      </div>
     </a>
     <a href="/projects/ecommerce-command-center/#marketing-investment">
-      <span>03 · CAPITAL ALLOCATION</span>
-      <h3>Where should the next marketing dollar go?</h3>
-      <p>Marketing Investment</p>
-      <small>Open analysis →</small>
+      <img class="management-card-visual" src="/materials/ecommerce-command-center/marketing-02-conversion.png" alt="Marketing source conversion comparison dashboard preview">
+      <div class="management-card-copy">
+        <span>03 · CAPITAL ALLOCATION</span>
+        <h3>Where should the next marketing dollar go?</h3>
+        <p><strong>Principle:</strong> Allocate by conversion quality and campaign role—not traffic alone.</p>
+        <small>Marketing Investment →</small>
+      </div>
     </a>
     <a href="/projects/ecommerce-command-center/#relocation-scenario">
-      <span>04 · STRATEGIC SCENARIO</span>
-      <h3>When would relocation improve the business?</h3>
-      <p>Store Relocation Scenario</p>
-      <small>Open analysis →</small>
+      <img class="management-card-visual" src="/materials/ecommerce-command-center/relocation-02-breakeven.png" alt="Store relocation break-even scenario dashboard preview">
+      <div class="management-card-copy">
+        <span>04 · STRATEGIC SCENARIO</span>
+        <h3>When would relocation improve the business?</h3>
+        <p><strong>Scenario:</strong> $60K rent savings versus an estimated -$387K net effect.</p>
+        <small>Relocation Scenario →</small>
+      </div>
     </a>
   </div>
 
-  <figure class="case-preview">
-    <img src="/materials/GIF_Dashboard.gif" alt="Ecommerce analytics dashboard showing business performance, revenue trends, and category filters">
-  </figure>
+  <p class="model-note">Dashboard findings use realistically modeled ecommerce data. Applied business outcomes are reported separately in the full case study.</p>
 
   <div class="case-actions">
     <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">View live dashboard ↗</a>
     <a class="button button--secondary" href="/projects/ecommerce-command-center/">See the analysis and recommendations</a>
-    <a class="text-link" href="https://github.com/amber-y321/Customer_Behavior_Dashboard">View technical repository ↗</a>
+    <a class="text-link" href="https://github.com/Amber-Y321/Ecommerce_Analytics">View technical repository ↗</a>
   </div>
 </section>
 
