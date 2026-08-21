@@ -167,7 +167,8 @@ body {
 
 .management-grid a {
   display: block;
-  padding: 1.2rem;
+  overflow: hidden;
+  padding: 0;
   border: 1px solid var(--portfolio-border);
   border-radius: 8px;
   background: #fff;
@@ -175,6 +176,17 @@ body {
   text-decoration: none;
   transition: transform 150ms ease, border-color 150ms ease, box-shadow 150ms ease;
 }
+
+.management-card-visual {
+  display: block;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-bottom: 1px solid var(--portfolio-border);
+  object-fit: cover;
+  object-position: top center;
+}
+
+.management-card-copy { padding: 1.15rem 1.2rem 1.25rem; }
 .management-grid a:hover {
   border-color: var(--portfolio-accent);
   box-shadow: 0 10px 28px rgba(23, 107, 104, 0.09);
@@ -212,11 +224,6 @@ figure figcaption {
   color: var(--portfolio-muted);
   font-size: 0.75rem;
   text-align: center;
-}
-
-.featured-dashboard-preview {
-  margin-top: 1.5rem;
-  background: #111218;
 }
 
 .case-facts {
