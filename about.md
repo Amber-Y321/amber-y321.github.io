@@ -19,4 +19,4 @@ I'm currently interested in Business Analyst, Ecommerce Analyst, Operations Anal
 
 - [Email](mailto:yangyahan0321@gmail.com)
 - [GitHub](https://github.com/amber-y321)
-- [Download résumé](/materials/Resume%20of%20Yahan_2025.pdf)
+- [Download résumé](/materials/Resume of Yahan_2026_Analytics.pdf)
