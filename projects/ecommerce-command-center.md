@@ -16,12 +16,17 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
 <section class="case-overview-pair">
   <div class="case-overview-pair__copy">
     <p class="analysis-number">PROJECT OVERVIEW</p>
+    <h2 class="operating-loop">
+  <span>Detect</span><b>→</b>
+  <span>Diagnose</span><b>→</b>
+  <span>Decide</span><b>→</b>
+  <span>Repeat</span>
+</h2>
     <p>I connected customer, order, product, marketing, and location data into a system that helps management detect performance issues, pinpoint likely drivers, and evaluate the next action.</p>
     <p>The Executive Overview provides one starting point; focused analyses then answer the specific revenue, marketing, assortment, or operational question.</p>
     <div class="hero-actions">
       <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Explore live dashboard ↗</a>
     </div>
-    <div class="operating-loop"><span>Detect</span><b>→</b><span>Diagnose</span><b>→</b><span>Decide</span><b>→</b><span>Repeat</span></div>
   </div>
   <figure class="paired-analysis__visual case-overview-pair__visual">
     <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and management priorities">
