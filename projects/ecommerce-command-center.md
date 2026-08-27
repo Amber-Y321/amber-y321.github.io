@@ -69,7 +69,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
       <p>Management can distinguish channels that create purchase intent from those that mainly support discovery, then align each source with the right campaign role.</p>
     </div>
     <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/marketing-02-conversion.png" alt="Marketing source conversion comparison"><figcaption>Marketing investment · source conversion quality</figcaption></figure>
-    <dl class="analysis-result paired-analysis__result"><dt>Action enabled</dt><dd>Match channels to acquisition, discovery, or retention roles and concentrate effort where purchase intent is strongest.</dd></dl>
+    <dl class="analysis-result paired-analysis__result"><dt>Action enabled</dt><dd>Assign each channel a clear role—awareness, acquisition, or retention—and direct limited marketing resources toward the strongest combination of conversion quality and customer value.</dd></dl>
   </article>
 
   <article class="paired-analysis" id="relocation-scenario">
