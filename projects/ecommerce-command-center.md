@@ -56,7 +56,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
       <p>This separates products that are merely popular from those that support profitable, operationally manageable growth.</p>
     </div>
     <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/revenue-03-profit-effort.png" alt="Profit-to-effort assortment strategy matrix"><figcaption>Assortment strategy · profit-to-effort tradeoff</figcaption></figure>
-    <dl class="analysis-result paired-analysis__result"><dt>Action enabled</dt><dd>Test a gradual shift toward higher-profit, lower-effort products instead of making an all-or-nothing category exit.</dd></dl>
+    <dl class="analysis-result paired-analysis__result"><dt>Action enabled</dt><dd>Do not eliminate a category based on weak sales alone. Reduce categories that combine low strategic importance, sustained decline, weak margins, and high operating effort—then test the change gradually through a focused assortment scenario.</dd></dl>
   </article>
 
   <article class="paired-analysis" id="marketing-investment">
