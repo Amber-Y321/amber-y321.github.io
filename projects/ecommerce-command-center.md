@@ -7,80 +7,73 @@ classes: wide
 description: "A repeatable workflow for detecting ecommerce issues, diagnosing drivers, and testing management decisions."
 ---
 
-<section class="case-stage">
-  <div class="case-stage__copy">
+<section class="case-columns case-columns--hero">
+  <div class="case-column-copy">
     <p class="feature-label"><span>CASE 01</span> ECOMMERCE ANALYTICS</p>
     <h1>From recurring analysis to a repeatable decision workflow.</h1>
-    <p>I connected customer, order, product, marketing, and location data into a system that helps management detect performance issues, pinpoint likely drivers, and evaluate the next action.</p>
+    <p class="case-column-lead">I connected customer, order, product, marketing, and location data into a system that helps management detect performance issues, pinpoint likely drivers, and evaluate the next action.</p>
     <div class="hero-actions">
-      <a class="button button--light" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Explore live dashboard ↗</a>
-      <a class="feature-link" href="#decisions">See the decisions ↓</a>
+      <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Explore live dashboard ↗</a>
+      <a class="button button--secondary" href="#executive-overview">See the analysis ↓</a>
     </div>
   </div>
-  <div class="case-stage__visual">
-    <div class="browser-frame browser-frame--hero">
-      <div class="browser-bar"><i></i><i></i><i></i><span>Executive Overview</span></div>
-      <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and priorities">
+  <figure class="case-column-visual browser-frame browser-frame--flat">
+    <div class="browser-bar"><i></i><i></i><i></i><span>Executive Overview</span></div>
+    <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and management priorities">
+  </figure>
+</section>
+
+<section class="case-purpose">
+  <p class="section-index">THE OPERATING IDEA</p>
+  <h2>One entry point identifies the priority. Three focused analyses answer what to do next.</h2>
+  <div class="case-purpose__steps"><span>01 · Detect the exception</span><span>02 · Diagnose the driver</span><span>03 · Decide the action</span><span>04 · Repeat next cycle</span></div>
+</section>
+
+<section class="case-analysis-list" aria-label="Four management decisions">
+  <article class="case-columns case-analysis" id="executive-overview">
+    <div class="case-column-copy">
+      <p class="analysis-number">01 / BUSINESS HEALTH</p>
+      <h2>Where should leadership focus first?</h2>
+      <p>The Executive Overview combines the essential health indicators and surfaces exceptions before the user opens another report.</p>
+      <dl class="analysis-result"><dt>Signal surfaced</dt><dd>76% of modeled revenue was concentrated in one category—making concentration the first management priority.</dd></dl>
     </div>
-    <p>One entry point surfaces the priority and routes the next analysis.</p>
-  </div>
-</section>
-
-<section class="transformation-line" aria-label="Project transformation">
-  <div><span>BEFORE</span><strong>Separate questions. Manual investigation. Hidden assumptions.</strong></div>
-  <b aria-hidden="true">→</b>
-  <div><span>AFTER</span><strong>One diagnostic entry point. Clear analytical routes. Testable actions.</strong></div>
-</section>
-
-<section class="case-intro">
-  <p class="section-index">01 / THE SYSTEM</p>
-  <div>
-    <h2>Start with the signal.<br>Go directly to the decision.</h2>
-    <p>The Executive Overview identifies the management priority. Instead of reviewing every report, the user moves directly to the relevant diagnostic or scenario.</p>
-  </div>
-</section>
-
-<section class="route-map" aria-label="Command center decision routes">
-  <div class="route-map__origin"><small>MONITOR + PINPOINT</small><strong>Executive<br>Overview</strong><span>What deserves attention?</span></div>
-  <div class="route-map__line" aria-hidden="true"></div>
-  <div class="route-map__destinations">
-    <div><small>REVENUE + PRODUCTS</small><strong>Assortment Strategy</strong></div>
-    <div><small>CUSTOMERS + CHANNELS</small><strong>Marketing Investment</strong></div>
-    <div><small>OPERATING RISK</small><strong>Relocation Scenario</strong></div>
-  </div>
-</section>
-
-<section class="decision-showcase" id="decisions">
-  <div class="case-intro case-intro--compact">
-    <p class="section-index">02 / THE DECISIONS</p>
-    <div><h2>Four views.<br>Four clear next moves.</h2></div>
-  </div>
-
-  <article class="decision-story">
-    <div class="decision-story__image"><img src="/materials/ecommerce-command-center/executive-03-concentration.png" alt="Revenue concentration dashboard"></div>
-    <div class="decision-story__copy"><span>01 · BUSINESS HEALTH</span><h3>Where should leadership focus first?</h3><p>Detect performance exceptions and concentration risk before opening another report.</p><strong>Signal surfaced</strong><p>76% of modeled revenue was concentrated in one category.</p></div>
+    <figure class="case-column-visual"><img src="/materials/ecommerce-command-center/executive-03-concentration.png" alt="Revenue concentration analysis by category and subcategory"><figcaption>Executive diagnostic · concentration risk</figcaption></figure>
   </article>
 
-  <article class="decision-story decision-story--reverse">
-    <div class="decision-story__image"><img src="/materials/ecommerce-command-center/revenue-03-profit-effort.png" alt="Profit-to-effort assortment strategy matrix"></div>
-    <div class="decision-story__copy"><span>02 · ASSORTMENT</span><h3>What should we protect, expand, or reduce?</h3><p>Balance profit potential against the effort required to operate each category.</p><strong>Action enabled</strong><p>Test a gradual shift toward higher-profit, lower-effort products.</p></div>
+  <article class="case-columns case-analysis" id="revenue-assortment">
+    <div class="case-column-copy">
+      <p class="analysis-number">02 / ASSORTMENT</p>
+      <h2>What should we protect, expand, or reduce?</h2>
+      <p>The assortment view connects revenue contribution and gross profit with the effort required to source, size, return, and style each product group.</p>
+      <dl class="analysis-result"><dt>Action enabled</dt><dd>Test a gradual shift toward higher-profit, lower-effort products instead of making an all-or-nothing category exit.</dd></dl>
+    </div>
+    <figure class="case-column-visual"><img src="/materials/ecommerce-command-center/revenue-03-profit-effort.png" alt="Profit-to-effort assortment strategy matrix"><figcaption>Assortment strategy · profit-to-effort tradeoff</figcaption></figure>
   </article>
 
-  <article class="decision-story">
-    <div class="decision-story__image"><img src="/materials/ecommerce-command-center/marketing-02-conversion.png" alt="Marketing source conversion comparison"></div>
-    <div class="decision-story__copy"><span>03 · MARKETING</span><h3>Where should the next dollar go?</h3><p>Compare channel quality across the funnel—not traffic volume alone.</p><strong>Action enabled</strong><p>Match channels to acquisition, discovery, or retention roles.</p></div>
+  <article class="case-columns case-analysis" id="marketing-investment">
+    <div class="case-column-copy">
+      <p class="analysis-number">03 / MARKETING</p>
+      <h2>Where should the next marketing dollar go?</h2>
+      <p>The marketing view compares acquisition sources across the funnel and connects channel performance with customer behavior—not traffic volume alone.</p>
+      <dl class="analysis-result"><dt>Action enabled</dt><dd>Match channels to acquisition, discovery, or retention roles and concentrate effort where purchase intent is strongest.</dd></dl>
+    </div>
+    <figure class="case-column-visual"><img src="/materials/ecommerce-command-center/marketing-02-conversion.png" alt="Marketing source conversion comparison"><figcaption>Marketing investment · source conversion quality</figcaption></figure>
   </article>
 
-  <article class="decision-story decision-story--reverse">
-    <div class="decision-story__image"><img src="/materials/ecommerce-command-center/relocation-02-breakeven.png" alt="Store relocation break-even scenario"></div>
-    <div class="decision-story__copy"><span>04 · OPERATIONS</span><h3>When would relocation improve the business?</h3><p>Test occupancy savings against customer loss and revenue exposure.</p><strong>Scenario result</strong><p>$60K in rent savings did not offset the modeled revenue risk.</p></div>
+  <article class="case-columns case-analysis" id="relocation-scenario">
+    <div class="case-column-copy">
+      <p class="analysis-number">04 / OPERATIONS</p>
+      <h2>When would relocation improve the business?</h2>
+      <p>The scenario model makes rent savings, local-customer loss, revenue exposure, and online recapture adjustable so the tradeoff remains transparent.</p>
+      <dl class="analysis-result"><dt>Scenario result</dt><dd>In the default model, $60K in rent savings did not offset the estimated revenue risk.</dd></dl>
+    </div>
+    <figure class="case-column-visual"><img src="/materials/ecommerce-command-center/relocation-02-breakeven.png" alt="Store relocation break-even scenario"><figcaption>Relocation decision · adjustable break-even analysis</figcaption></figure>
   </article>
 </section>
 
-<section class="impact-editorial">
-  <div><p class="section-index">03 / APPLIED IMPACT</p><h2>Analysis connected<br>to commercial action.</h2></div>
-  <div class="impact-editorial__metrics"><p><strong>+43.1%</strong><span>observed YoY revenue growth</span></p><p><strong>+49%</strong><span>observed YoY online-session growth</span></p></div>
-  <p class="impact-note">Observed outcomes, not a controlled causal estimate. The public dashboard uses realistically modeled data; commercial outcomes are reported separately.</p>
+<section class="case-columns case-impact">
+  <div class="case-column-copy"><p class="analysis-number">APPLIED BUSINESS IMPACT</p><h2>Analysis connected to commercial action.</h2><p>Segmentation-led recommendations were applied in the operating business while the public dashboard was rebuilt with realistically modeled data.</p></div>
+  <div class="case-impact__metrics"><p><strong>+43.1%</strong><span>observed year-over-year revenue growth</span></p><p><strong>+49%</strong><span>observed year-over-year online-session growth</span></p><small>Observed outcomes, not a controlled causal estimate.</small></div>
 </section>
 
 <details class="case-deep-dive editorial-details">
