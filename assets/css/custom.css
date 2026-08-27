@@ -681,6 +681,7 @@ figure figcaption {
 .case-overview-pair__copy .hero-actions { margin-top: 1.2rem; }
 .case-overview-pair__copy .operating-loop { margin-top: 1.2rem; padding-top: 0.95rem; }
 .operating-loop span { font-size: 0.61rem; }
+.page__content h2.operating-loop { margin-bottom: 0; }
 .button { padding: 0.68rem 0.9rem; font-size: 0.8rem; }
 .case-impact-simple { margin-top: 3.75rem; padding: clamp(1.7rem, 3vw, 2.6rem); }
 .case-impact-simple div > p:last-child { font-size: 0.76rem; }
@@ -1267,4 +1268,52 @@ figure figcaption {
   .full-width-case-hero { padding: 3rem 0 2.5rem; }
   .full-width-case-hero h1 { font-size: clamp(2.05rem, 9vw, 2.9rem); }
   .case-overview-pair, .paired-analysis { padding: 3rem 0; }
+}
+
+.page__content h2.operating-loop {
+  gap: 0.65rem;
+  margin: 1.35rem 0 0;
+  padding-top: 1rem;
+  font-size: clamp(0.95rem, 1.6vw, 1.15rem);
+  line-height: 1.35;
+  letter-spacing: -0.01em;
+}
+.page__content h2.operating-loop span { font-size: 1em; }
+.page__content h2.operating-loop b { font-size: 0.85em; }
+
+/* Decision sections: full-width heading and result, paired middle content */
+.paired-analysis {
+  align-items: start;
+  row-gap: 2rem;
+}
+.paired-analysis__heading,
+.paired-analysis__result {
+  grid-column: 1 / -1;
+}
+.paired-analysis__heading .analysis-number { margin-bottom: 0.75rem !important; }
+.paired-analysis__heading h2 {
+  max-width: 900px;
+  margin: 0;
+  font-size: clamp(1.5rem, 2.6vw, 2.1rem);
+  font-weight: 650;
+  letter-spacing: -0.04em;
+}
+.paired-analysis__copy,
+.paired-analysis__visual { align-self: center; }
+.paired-analysis__copy > p:first-child { margin-top: 0; }
+.paired-analysis__copy > p:last-child { margin-bottom: 0; }
+.paired-analysis__result {
+  display: grid;
+  grid-template-columns: minmax(120px, 0.3fr) minmax(0, 1.7fr);
+  gap: 1.5rem;
+  margin: 0;
+  padding-top: 1.1rem;
+}
+.paired-analysis__result dt,
+.paired-analysis__result dd { align-self: start; }
+.paired-analysis__result dd { margin-top: 0; }
+
+@media (max-width: 780px) {
+  .paired-analysis { row-gap: 1.5rem; }
+  .paired-analysis__result { grid-template-columns: 1fr; gap: 0.35rem; }
 }
