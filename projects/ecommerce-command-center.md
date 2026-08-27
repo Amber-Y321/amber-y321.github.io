@@ -33,14 +33,17 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
   <article class="paired-analysis" id="executive-overview">
     <header class="paired-analysis__heading">
       <p class="analysis-number">01 / BUSINESS HEALTH</p>
-      <h2>Where should leadership focus first?</h2>
+      <h2>Is the business stable—and where does risk deserve attention?</h2>
     </header>
     <div class="paired-analysis__copy">
-      <p>The Executive Overview is the diagnostic entry point. It combines essential health indicators and surfaces exceptions before management opens another report.</p>
-      <p>Instead of reviewing every metric, the owner can identify whether the next conversation should focus on revenue, marketing quality, margin protection, or operational simplification.</p>
+      <p>Core KPIs establish the operating baseline. They require attention when growth slows, reverses, or relies heavily on one period or product group.</p>
+
+<p>Revenue concentration reveals dependency risk. A dominant category, subcategory group, region, or price tier deserves investigation—not because concentration is inherently negative, but because it increases exposure to disruption.</p>
+
+<p>Traffic, conversion, and returns indicate demand quality and margin pressure. Attention is triggered when traffic grows without conversion, conversion falls below 3%, or returns reach 8% or more.</p>
     </div>
     <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/executive-03-concentration.png" alt="Revenue concentration analysis by category and subcategory"><figcaption>Executive diagnostic · concentration risk</figcaption></figure>
-    <dl class="analysis-result paired-analysis__result"><dt>Signal surfaced</dt><dd>76% of modeled revenue was concentrated in one category—making concentration the first management priority.</dd></dl>
+    <dl class="analysis-result paired-analysis__result"><dt>Signal surfaced</dt><dd>Headline performance is stable, but revenue concentration deserves investigation: one category generates 76% of revenue and the top five subcategories generate 85.6%.</dd></dl>
   </article>
 
   <article class="paired-analysis" id="revenue-assortment">
