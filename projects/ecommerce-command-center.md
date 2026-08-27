@@ -13,6 +13,11 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
   <p class="case-subtitle">One command center for recurring management decisions.</p>
 </header>
 
+  <p class="analysis-number">PROJECT OVERVIEW</p>
+  <h2><span>Detect</span><b>→</b>
+  <span>Diagnose</span><b>→</b>
+  <span>Decide</span><b>→</b>
+  <span>Repeat</span></h2>
 <section class="case-overview-pair">
   <div class="case-overview-pair__copy">
     <p class="analysis-number">PROJECT OVERVIEW</p>
