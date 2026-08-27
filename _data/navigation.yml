@@ -1,7 +1,5 @@
 
 main:
-  - title: "Work"
-    url: /#selected-work
   - title: "Case Study"
     url: /projects/ecommerce-command-center/
   - title: "About"
