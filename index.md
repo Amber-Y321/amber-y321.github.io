@@ -7,81 +7,42 @@ classes: wide
 ---
 
 <section class="portfolio-hero">
-  <h1>Analytics for clearer commercial and operational decisions.</h1>
-  <p class="hero-summary">Hi, I'm Yahan. With 5 years of experience across ecommerce and healthcare, I turn customer, patient, revenue, marketing, and operational data into priorities leaders can act on.</p>
-  <div class="hero-actions">
-    <a class="button button--primary" href="#selected-work">Explore the E-commerice command center</a>
+  <h1>Analytics for clearer and efficient decisions.</h1>
+  <p class="hero-summary">Hi, I'm Yahan. With 5 years of experience across ecommerce and healthcare, I turn recurring questions and fragmented data into priorities leaders can act on.</p>
+  <a class="hero-text-link" href="#selected-work">View featured work <span>↓</span></a>
+</section>
+
+<section class="project-feature" id="selected-work">
+  <div class="project-feature__copy">
+    <p class="feature-label"><span>01</span> Ecommerce Analytics Command Center</p>
+    <h2>Ecommerce Analytics<br>Command Center</h2>
+    <p class="feature-statement">A repeatable management workflow that makes it easier to spot what changed, find the cause, and decide what to do next.</p>
+    <div class="feature-actions">
+      <a class="button button--light" href="/projects/ecommerce-command-center/">View the 90-second case</a>
+      <a class="feature-link" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Open live dashboard ↗</a>
+    </div>
+  </div>
+
+  <div class="project-feature__visual">
+    <div class="browser-frame">
+      <div class="browser-bar"><i></i><i></i><i></i><span>Executive Overview</span></div>
+      <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce performance signals and priorities">
+    </div>
+  </div>
+
+  <div class="process-ribbon" aria-label="Decision workflow">
+    <div><span>01</span><strong>Detect</strong><small>Surface the exception</small></div>
+    <div><span>02</span><strong>Diagnose</strong><small>Trace the driver</small></div>
+    <div><span>03</span><strong>Decide</strong><small>Compare the action</small></div>
+    <div><span>04</span><strong>Repeat</strong><small>Reuse next cycle</small></div>
   </div>
 </section>
 
-<section class="portfolio-section" id="selected-work">
-  <h2>E-commerce: Four decisions. One command center.</h2>
-  <p class="section-lead">I turned a boutique retailer's recurring questions about performance, assortment, marketing, and location strategy into one decision-support system.</p>
-
-  <div class="project-snapshot" aria-label="Project scope">
-    <div><span>ROLE</span><strong>Data Consultant</strong></div>
-    <div><span>METHOD</span><strong>Diagnostics + scenario modeling</strong></div>
-    <div><span>DELIVERABLE</span><strong>Four-page decision system</strong></div>
-  </div>
-
-  <div class="impact-grid" aria-label="Observed business results">
-    <div class="metric-card">
-      <strong>+43.1%</strong>
-      <span>year-over-year revenue lift observed following the segmentation-led strategy</span>
-    </div>
-    <div class="metric-card">
-      <strong>+49%</strong>
-      <span>year-over-year growth in online sessions during the same period</span>
-    </div>
-  </div>
-
-  <h3 class="management-grid-title">Four views, each tied to a management decision</h3>
-  <div class="management-grid">
-    <a href="/projects/ecommerce-command-center/#executive-overview">
-      <img class="management-card-visual" src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview dashboard preview">
-      <div class="management-card-copy">
-        <span>01 · BUSINESS HEALTH</span>
-        <h3>Where should leadership focus first?</h3>
-        <p><strong>Signal:</strong> 76% of modeled revenue concentrated in the leading category.</p>
-        <small>Executive Overview →</small>
-      </div>
-    </a>
-    <a href="/projects/ecommerce-command-center/#revenue-assortment">
-      <img class="management-card-visual" src="/materials/ecommerce-command-center/revenue-03-profit-effort.png" alt="Profit-to-effort assortment strategy dashboard preview">
-      <div class="management-card-copy">
-        <span>02 · GROWTH LEVERS</span>
-        <h3>What should we promote, expand, or rationalize?</h3>
-        <p><strong>Action:</strong> Test a gradual shift toward higher-profit, lower-effort products.</p>
-        <small>Revenue & Assortment →</small>
-      </div>
-    </a>
-    <a href="/projects/ecommerce-command-center/#marketing-investment">
-      <img class="management-card-visual" src="/materials/ecommerce-command-center/marketing-02-conversion.png" alt="Marketing source conversion comparison dashboard preview">
-      <div class="management-card-copy">
-        <span>03 · CAPITAL ALLOCATION</span>
-        <h3>Where should the next marketing dollar go?</h3>
-        <p><strong>Principle:</strong> Allocate by conversion quality and campaign role—not traffic alone.</p>
-        <small>Marketing Investment →</small>
-      </div>
-    </a>
-    <a href="/projects/ecommerce-command-center/#relocation-scenario">
-      <img class="management-card-visual" src="/materials/ecommerce-command-center/relocation-02-breakeven.png" alt="Store relocation break-even scenario dashboard preview">
-      <div class="management-card-copy">
-        <span>04 · STRATEGIC SCENARIO</span>
-        <h3>When would relocation improve the business?</h3>
-        <p><strong>Scenario:</strong> $60K rent savings versus an estimated -$387K net effect.</p>
-        <small>Relocation Scenario →</small>
-      </div>
-    </a>
-  </div>
-
-  <p class="model-note">Dashboard findings use realistically modeled ecommerce data. Applied business outcomes are reported separately in the full case study.</p>
-
-  <div class="case-actions">
-    <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">View live dashboard ↗</a>
-    <a class="button button--secondary" href="/projects/ecommerce-command-center/">See the analysis and recommendations</a>
-    <a class="text-link" href="https://github.com/Amber-Y321/Ecommerce_Analytics">View technical repository ↗</a>
-  </div>
+<section class="proof-strip" aria-label="Project proof">
+  <div><strong>4</strong><span>management decisions<br>in one operating view</span></div>
+  <div><strong>+43.1%</strong><span>observed YoY<br>revenue growth</span></div>
+  <div><strong>+49%</strong><span>observed YoY<br>online-session growth</span></div>
+  <p>Dashboard findings use realistically modeled data. Commercial outcomes come from the applied engagement.</p>
 </section>
 
 <section class="contact-band" id="contact">
