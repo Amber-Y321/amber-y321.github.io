@@ -10,13 +10,24 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
 <header class="full-width-case-hero">
   <p class="feature-label"><span>CASE 01</span> ECOMMERCE ANALYTICS</p>
   <h1>From recurring analysis to a repeatable decision workflow.</h1>
-  <p>I connected customer, order, product, marketing, and location data into a system that helps management detect performance issues, pinpoint likely drivers, and evaluate the next action.</p>
-  <div class="hero-actions">
-    <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Explore live dashboard ↗</a>
-    <a class="button button--secondary" href="#executive-overview">See the analysis ↓</a>
-  </div>
-  <div class="operating-loop operating-loop--wide"><span>Detect the exception</span><b>→</b><span>Diagnose the driver</span><b>→</b><span>Decide the action</span><b>→</b><span>Repeat next cycle</span></div>
 </header>
+
+<section class="case-overview-pair">
+  <div class="case-overview-pair__copy">
+    <p class="analysis-number">PROJECT OVERVIEW</p>
+    <h2>One command center for recurring management decisions.</h2>
+    <p>I connected customer, order, product, marketing, and location data into a system that helps management detect performance issues, pinpoint likely drivers, and evaluate the next action.</p>
+    <p>The Executive Overview provides one starting point; focused analyses then answer the specific revenue, marketing, assortment, or operational question.</p>
+    <div class="hero-actions">
+      <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Explore live dashboard ↗</a>
+    </div>
+    <div class="operating-loop"><span>Detect</span><b>→</b><span>Diagnose</span><b>→</b><span>Decide</span><b>→</b><span>Repeat</span></div>
+  </div>
+  <figure class="paired-analysis__visual case-overview-pair__visual">
+    <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and management priorities">
+    <figcaption>Executive Overview · one starting point for the next management decision</figcaption>
+  </figure>
+</section>
 
 <section class="paired-analysis-list" aria-label="Four management decisions">
   <article class="paired-analysis" id="executive-overview">
