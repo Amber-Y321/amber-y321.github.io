@@ -78,11 +78,11 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
       <h2>When would relocation improve the business?</h2>
     </header>
     <div class="paired-analysis__copy">
+      <p>Relocation should not be evaluated on rent savings alone. The decision depends on local revenue exposure, customer retention, and how much lost business ecommerce can recover.</p>
       <p>The relocation model makes rent savings, local-customer loss, revenue exposure, and online recapture adjustable instead of presenting one forecast as certainty.</p>
-      <p>The owner can test the exact retention and ecommerce conditions required before a move becomes financially defensible.</p>
     </div>
     <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/relocation-02-breakeven.png" alt="Store relocation break-even scenario"><figcaption>Relocation decision · adjustable break-even analysis</figcaption></figure>
-    <dl class="analysis-result paired-analysis__result"><dt>Scenario result</dt><dd>In the default model, $60K in rent savings did not offset the estimated revenue risk.</dd></dl>
+    <dl class="analysis-result paired-analysis__result"><dt>Action enabled</dt><dd>Proceed only when expected rent savings exceed the profit at risk—and when the required customer retention and ecommerce recapture assumptions are realistic.</dd></dl>
   </article>
 </section>
 
@@ -102,7 +102,22 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
       <article><span>03</span><strong>Model</strong><p>Converted assortment and relocation questions into adjustable scenarios with visible assumptions.</p></article>
       <article><span>04</span><strong>Operationalize</strong><p>Designed four Streamlit pages that move from business question to evidence to recommended action.</p></article>
     </div>
-    <ul class="tech-list"><li>Python</li><li>Pandas</li><li>Plotly</li><li>Streamlit</li><li>scikit-learn</li><li>Segmentation</li><li>Scenario modeling</li></ul>
+    <ul class="tech-list">
+  <li>Python</li>
+  <li>Pandas</li>
+  <li>scikit-learn</li>
+  <li>Shopify Data</li>
+  <li>Google Analytics 4</li>
+  <li>Data Integration</li>
+  <li>Funnel Analysis</li>
+  <li>Customer Segmentation</li>
+  <li>Revenue & Margin Analysis</li>
+  <li>Assortment Analysis</li>
+  <li>Scenario Modeling</li>
+  <li>Sensitivity Analysis</li>
+  <li>AI-Assisted Recommendations</li>
+  <li>Decision-Support Dashboards</li>
+</ul>
   </div>
 </details>
 
