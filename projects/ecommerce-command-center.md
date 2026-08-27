@@ -21,7 +21,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
     <div class="hero-actions">
       <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Explore live dashboard ↗</a>
     </div>
-    <h2 class="operating-loop"><span>Detect</span><b>→</b><span>Diagnose</span><b>→</b><span>Decide</span><b>→</b><span>Repeat</span></h2>
+    <h3 class="operating-loop"><span>Detect</span><b>→</b><span>Diagnose</span><b>→</b><span>Decide</span><b>→</b><span>Repeat</span></h2>
   </div>
   <figure class="paired-analysis__visual case-overview-pair__visual">
     <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and management priorities">
@@ -36,11 +36,11 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
       <h2>Is the business stable—and where does risk deserve attention?</h2>
     </header>
     <div class="paired-analysis__copy">
-      <p>Core KPIs establish the operating baseline. They require attention when growth slows, reverses, or relies heavily on one period or product group.</p>
+      <p>Core KPIs and performance trends establish the operating baseline. They require attention when growth slows, reverses, or relies heavily on one period or product group.</p>
 
-<p>Revenue concentration reveals dependency risk. A dominant category, subcategory group, region, or price tier deserves investigation—not because concentration is inherently negative, but because it increases exposure to disruption.</p>
+<p>Revenue concentration reveals dependency risk. A dominant category, subcategory group, region, or price tier deserves investigation because it increases exposure to disruption.</p>
 
-<p>Traffic, conversion, and returns indicate demand quality and margin pressure. Attention is triggered when traffic grows without conversion, conversion falls below 3%, or returns reach 8% or more.</p>
+<p>Traffic, conversion, and returns indicate demand quality. Attention is triggered when traffic grows with 3% conversion or less, or returns reach 8% or more.</p>
     </div>
     <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/executive-03-concentration.png" alt="Revenue concentration analysis by category and subcategory"><figcaption>Executive diagnostic · concentration risk</figcaption></figure>
     <dl class="analysis-result paired-analysis__result"><dt>Signal surfaced</dt><dd>Headline performance is stable, but revenue concentration deserves investigation: one category generates 76% of revenue and the top five subcategories generate 85.6%.</dd></dl>
