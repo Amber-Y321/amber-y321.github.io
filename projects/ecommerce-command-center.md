@@ -21,7 +21,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
     <div class="hero-actions">
       <a class="button button--primary" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Explore live dashboard ↗</a>
     </div>
-    <h2 class="operating-loop"><span>Detect</span><b>→</b><span>Diagnose</span><b>→</b><span>Decide</span><b>→</b><span>Repeat</span></h2>
+    <h3 class="operating-loop"><span>Detect</span><b>→</b><span>Diagnose</span><b>→</b><span>Decide</span><b>→</b><span>Repeat</span></h3>
   </div>
   <figure class="paired-analysis__visual case-overview-pair__visual">
     <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and management priorities">
