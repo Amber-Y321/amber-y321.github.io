@@ -10,12 +10,12 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
 <header class="full-width-case-hero">
   <p class="feature-label"><span>CASE 01</span> ECOMMERCE ANALYTICS</p>
   <h1>From recurring analysis to a repeatable decision workflow.</h1>
+  <p class="case-subtitle">One command center for recurring management decisions.</p>
 </header>
 
 <section class="case-overview-pair">
   <div class="case-overview-pair__copy">
     <p class="analysis-number">PROJECT OVERVIEW</p>
-    <h2>One command center for recurring management decisions.</h2>
     <p>I connected customer, order, product, marketing, and location data into a system that helps management detect performance issues, pinpoint likely drivers, and evaluate the next action.</p>
     <p>The Executive Overview provides one starting point; focused analyses then answer the specific revenue, marketing, assortment, or operational question.</p>
     <div class="hero-actions">
