@@ -30,19 +30,19 @@ classes: wide
         <figcaption>Overview</figcaption>
       </figure>
       <figure class="feature-dashboard-card">
-        <img src="/materials/ecommerce-command-center/Sessions.png" alt="Sessions, conversion, and return-rate monitoring" loading="lazy">
+        <img src="/materials/ecommerce-command-center/executive-04-alerts.png" alt="Sessions, conversion, and return-rate monitoring" loading="lazy">
         <figcaption>Sessions</figcaption>
       </figure>
       <figure class="feature-dashboard-card">
-        <img src="/materials/ecommerce-command-center/tradeoff.png" alt="Profit-to-effort assortment tradeoff analysis" loading="lazy">
+        <img src="/materials/ecommerce-command-center/revenue-03-profit-effort.png" alt="Profit-to-effort assortment tradeoff analysis" loading="lazy">
         <figcaption>Tradeoff</figcaption>
       </figure>
       <figure class="feature-dashboard-card">
-        <img src="/materials/ecommerce-command-center/segmentation+AI.png" alt="Customer segmentation for campaign planning" loading="lazy">
+        <img src="/materials/ecommerce-command-center/marketing-03-ai-support.png" alt="Customer segmentation for campaign planning" loading="lazy">
         <figcaption>Segmentation</figcaption>
       </figure>
       <figure class="feature-dashboard-card">
-        <img src="/materials/ecommerce-command-center/scenario.png" alt="Store relocation break-even scenario" loading="lazy">
+        <img src="/materials/ecommerce-command-center/relocation-scenario.png" alt="Store relocation break-even scenario" loading="lazy">
         <figcaption>Scenario</figcaption>
       </figure>
     </div>
@@ -68,3 +68,64 @@ classes: wide
   <h2>Let's connect.</h2>
   <p>For analytics opportunities and project conversations: <a href="mailto:yangyahan0321@gmail.com">yangyahan0321@gmail.com</a> · <a href="https://github.com/amber-y321">GitHub</a></p>
 </section>
+
+<script>
+  (() => {
+    const initializeCarousel = () => {
+      const carousel = document.querySelector('.feature-dashboard-grid--autoplay');
+      if (!carousel) return;
+
+      const slides = Array.from(carousel.querySelectorAll('.feature-dashboard-card'));
+      if (slides.length < 2) return;
+
+      let currentIndex = 0;
+      let intervalId;
+      let scrollUpdateId;
+
+      const stop = () => {
+        if (intervalId) window.clearInterval(intervalId);
+        intervalId = undefined;
+      };
+
+      const show = (index) => {
+        currentIndex = (index + slides.length) % slides.length;
+        carousel.scrollTo({ left: slides[currentIndex].offsetLeft, behavior: 'smooth' });
+      };
+
+      const start = () => {
+        stop();
+        intervalId = window.setInterval(() => show(currentIndex + 1), 2000);
+      };
+
+      carousel.addEventListener('mouseenter', stop);
+      carousel.addEventListener('mouseleave', start);
+      carousel.addEventListener('focusin', stop);
+      carousel.addEventListener('focusout', (event) => {
+        if (!carousel.contains(event.relatedTarget)) start();
+      });
+      carousel.addEventListener('scroll', () => {
+        window.clearTimeout(scrollUpdateId);
+        scrollUpdateId = window.setTimeout(() => {
+          currentIndex = slides.reduce((closest, slide, index) => {
+            const currentDistance = Math.abs(slides[closest].offsetLeft - carousel.scrollLeft);
+            const nextDistance = Math.abs(slide.offsetLeft - carousel.scrollLeft);
+            return nextDistance < currentDistance ? index : closest;
+          }, 0);
+        }, 120);
+      }, { passive: true });
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) stop();
+        else if (!carousel.matches(':hover')) start();
+      });
+
+      show(0);
+      start();
+    };
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeCarousel, { once: true });
+    } else {
+      initializeCarousel();
+    }
+  })();
+</script>
