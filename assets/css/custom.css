@@ -1384,7 +1384,7 @@ figure figcaption {
 .feature-dashboard-grid--mosaic {
   position: relative;
   display: block;
-  height: 560px;
+  height: 450px;
   margin-bottom: 4.5rem;
   overflow: visible;
   transform: none;
