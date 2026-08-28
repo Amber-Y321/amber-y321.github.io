@@ -24,7 +24,7 @@ classes: wide
   </div>
 
   <div class="project-feature__visual">
-    <div class="feature-dashboard-grid" aria-label="Command center analysis views">
+    <div class="feature-dashboard-grid" role="region" aria-label="Command center analysis views; scroll horizontally to explore" tabindex="0">
       <figure class="feature-dashboard-card feature-dashboard-card--overview">
         <img src="/materials/ecommerce-command-center/Overview.png" alt="Executive Overview showing ecommerce KPIs and operating priorities">
         <figcaption>Overview</figcaption>
