@@ -18,13 +18,13 @@ classes: wide
     <h2>Ecommerce Analytics<br>Command Center</h2>
     <p class="feature-statement">A repeatable management workflow that makes it easier to spot what changed, find the cause, and decide what to do next.</p>
     <div class="feature-actions">
-      <a class="button button--light" href="/projects/ecommerce-command-center/">View the whole case</a>
+      <a class="button button--light" href="/projects/ecommerce-command-center/">View the 90-second case</a>
       <a class="feature-link" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Open live dashboard ↗</a>
     </div>
   </div>
 
   <div class="project-feature__visual">
-    <div class="feature-dashboard-grid feature-dashboard-grid--autoplay" role="region" aria-label="Command center analysis views rotating every three seconds" tabindex="0">
+    <div class="feature-dashboard-grid feature-dashboard-grid--autoplay" role="region" aria-label="Command center analysis views rotating every two seconds" tabindex="0">
       <figure class="feature-dashboard-card feature-dashboard-card--overview">
         <img src="/materials/ecommerce-command-center/Overview.png" alt="Executive Overview showing ecommerce KPIs and operating priorities">
         <figcaption>Overview</figcaption>
