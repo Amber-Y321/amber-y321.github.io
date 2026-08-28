@@ -1384,7 +1384,7 @@ figure figcaption {
 .feature-dashboard-grid--mosaic {
   position: relative;
   display: block;
-  height: 450px;
+  height: 560px;
   margin-bottom: 4.5rem;
   overflow: visible;
   transform: none;
@@ -1392,7 +1392,7 @@ figure figcaption {
 .project-feature:hover .feature-dashboard-grid--mosaic { transform: translateY(-3px); }
 .feature-dashboard-grid--mosaic .feature-dashboard-card {
   position: absolute;
-  width: 58%;
+  width: 50%;
   height: 44%;
   box-shadow: 0 14px 30px rgba(0,0,0,0.2);
   transition: transform 220ms ease, box-shadow 220ms ease;
