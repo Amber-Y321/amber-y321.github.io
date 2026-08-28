@@ -1380,36 +1380,12 @@ figure figcaption {
   transform: none;
 }
 
-/* Homepage only: advance one horizontal slide every two seconds. */
+/* Homepage only: the timer in index.md advances this horizontal carousel. */
 .feature-dashboard-grid--autoplay {
   position: relative;
-  overflow: hidden;
-}
-.feature-dashboard-grid--autoplay .feature-dashboard-card {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: calc(100% - 8px);
-  transform: translateX(105%);
-  animation: feature-dashboard-autoplay 10s infinite linear;
-}
-.feature-dashboard-grid--autoplay .feature-dashboard-card:nth-child(1) { animation-delay: 0s; }
-.feature-dashboard-grid--autoplay .feature-dashboard-card:nth-child(2) { animation-delay: 2s; }
-.feature-dashboard-grid--autoplay .feature-dashboard-card:nth-child(3) { animation-delay: 4s; }
-.feature-dashboard-grid--autoplay .feature-dashboard-card:nth-child(4) { animation-delay: 6s; }
-.feature-dashboard-grid--autoplay .feature-dashboard-card:nth-child(5) { animation-delay: 8s; }
-.feature-dashboard-grid--autoplay:hover .feature-dashboard-card { animation-play-state: paused; }
-
-@keyframes feature-dashboard-autoplay {
-  0%, 15% { transform: translateX(0); }
-  20%, 100% { transform: translateX(-105%); }
+  scroll-behavior: smooth;
 }
 
 @media (max-width: 780px) {
   .feature-dashboard-grid { height: 280px; transform: none; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-  .feature-dashboard-grid--autoplay .feature-dashboard-card { animation: none; transform: translateX(105%); }
-  .feature-dashboard-grid--autoplay .feature-dashboard-card:first-child { transform: translateX(0); }
 }
