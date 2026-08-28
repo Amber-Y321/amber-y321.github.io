@@ -24,7 +24,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
     <h3 class="operating-loop"><span>Detect</span><b>→</b><span>Diagnose</span><b>→</b><span>Decide</span><b>→</b><span>Repeat</span></h3>
   </div>
   <figure class="paired-analysis__visual case-overview-pair__visual">
-    <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and management priorities">
+    <img src="/materials/ecommerce-command-center/Overview.png" alt="Executive Overview showing ecommerce KPIs and management priorities">
     <figcaption>Executive Overview · one starting point for the next management decision</figcaption>
   </figure>
 </section>
@@ -42,7 +42,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
 
 <p>Traffic, conversion, and returns indicate demand quality. Attention is triggered when traffic grows with 3% conversion or less, or returns reach 8% or more.</p>
     </div>
-    <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/executive-03-concentration.png" alt="Revenue concentration analysis by category and subcategory"><figcaption>Executive diagnostic · concentration risk</figcaption></figure>
+    <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/Sessions.png" alt="Revenue concentration analysis by category and subcategory"><figcaption>Executive diagnostic · concentration risk</figcaption></figure>
     <dl class="analysis-result paired-analysis__result"><dt>Signal surfaced</dt><dd>Headline performance is stable, but revenue concentration deserves investigation: one category generates 76% of revenue and the top five subcategories generate 85.6%.</dd></dl>
   </article>
 
@@ -55,7 +55,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
       <p>The assortment analysis connects revenue contribution and gross profit with the effort required to source, size, return, and style each product group.</p>
       <p>This separates products that are merely popular from those that support profitable, operationally manageable growth.</p>
     </div>
-    <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/revenue-03-profit-effort.png" alt="Profit-to-effort assortment strategy matrix"><figcaption>Assortment strategy · profit-to-effort tradeoff</figcaption></figure>
+    <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/tradeoff.png" alt="Profit-to-effort assortment strategy matrix"><figcaption>Assortment strategy · profit-to-effort tradeoff</figcaption></figure>
     <dl class="analysis-result paired-analysis__result"><dt>Action enabled</dt><dd>Do not eliminate a category based on weak sales alone. Reduce categories that combine low strategic importance, sustained decline, weak margins, and high operating effort—then test the change gradually through a focused assortment scenario.</dd></dl>
   </article>
 
@@ -68,7 +68,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
       <p>The marketing analysis compares acquisition sources across the funnel and connects channel performance with customer behavior—not traffic volume alone.</p>
       <p>Management can distinguish channels that create purchase intent from those that mainly support discovery, then align each source with the right campaign role.</p>
     </div>
-    <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/marketing-02-conversion.png" alt="Marketing source conversion comparison"><figcaption>Marketing investment · source conversion quality</figcaption></figure>
+    <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/segmentation+AI.png" alt="Marketing source conversion comparison"><figcaption>Marketing investment · source conversion quality</figcaption></figure>
     <dl class="analysis-result paired-analysis__result"><dt>Action enabled</dt><dd>Assign each channel a clear role—awareness, acquisition, or retention—and direct limited marketing resources toward the strongest combination of conversion quality and customer value.</dd></dl>
   </article>
 
@@ -81,7 +81,7 @@ description: "A repeatable workflow for detecting ecommerce issues, diagnosing d
       <p>Relocation should not be evaluated on rent savings alone. The decision depends on local revenue exposure, customer retention, and how much lost business ecommerce can recover.</p>
       <p>The relocation model makes rent savings, local-customer loss, revenue exposure, and online recapture adjustable instead of presenting one forecast as certainty.</p>
     </div>
-    <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/relocation-02-breakeven.png" alt="Store relocation break-even scenario"><figcaption>Relocation decision · adjustable break-even analysis</figcaption></figure>
+    <figure class="paired-analysis__visual"><img src="/materials/ecommerce-command-center/scenario.png" alt="Store relocation break-even scenario"><figcaption>Relocation decision · adjustable break-even analysis</figcaption></figure>
     <dl class="analysis-result paired-analysis__result"><dt>Action enabled</dt><dd>Proceed only when expected rent savings exceed the profit at risk—and when the required customer retention and ecommerce recapture assumptions are realistic.</dd></dl>
   </article>
 </section>
