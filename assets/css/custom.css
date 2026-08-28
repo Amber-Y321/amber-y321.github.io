@@ -1384,7 +1384,7 @@ figure figcaption {
 .feature-dashboard-grid--mosaic {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  grid-template-rows: repeat(3, 128px);
+  grid-template-rows: repeat(3, 256px);
   gap: 0.7rem;
   height: auto;
   overflow: visible;
