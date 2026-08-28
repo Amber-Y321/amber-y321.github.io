@@ -1380,12 +1380,37 @@ figure figcaption {
   transform: none;
 }
 
-/* Homepage only: the timer in index.md advances this horizontal carousel. */
-.feature-dashboard-grid--autoplay {
-  position: relative;
-  scroll-behavior: smooth;
+/* Homepage only: two views, one centered view, then two views. */
+.feature-dashboard-grid--mosaic {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  grid-template-rows: repeat(3, 128px);
+  gap: 0.7rem;
+  height: auto;
+  overflow: visible;
+  transform: none;
+}
+.project-feature:hover .feature-dashboard-grid--mosaic { transform: translateY(-3px); }
+.feature-dashboard-grid--mosaic .feature-dashboard-card {
+  width: auto;
+  height: 100%;
+  min-width: 0;
+  box-shadow: 0 14px 30px rgba(0,0,0,0.2);
+}
+.feature-dashboard-grid--mosaic .feature-dashboard-card:nth-child(1) { grid-column: 1 / span 2; }
+.feature-dashboard-grid--mosaic .feature-dashboard-card:nth-child(2) { grid-column: 3 / span 2; }
+.feature-dashboard-grid--mosaic .feature-dashboard-card:nth-child(3) { grid-column: 2 / span 2; }
+.feature-dashboard-grid--mosaic .feature-dashboard-card:nth-child(4) { grid-column: 1 / span 2; }
+.feature-dashboard-grid--mosaic .feature-dashboard-card:nth-child(5) { grid-column: 3 / span 2; }
+.feature-dashboard-grid--mosaic .feature-dashboard-card img {
+  object-fit: cover;
+  object-position: top center;
 }
 
 @media (max-width: 780px) {
   .feature-dashboard-grid { height: 280px; transform: none; }
+  .feature-dashboard-grid--mosaic {
+    grid-template-rows: repeat(3, 105px);
+    height: auto;
+  }
 }
