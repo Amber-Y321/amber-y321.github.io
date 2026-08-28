@@ -7,14 +7,14 @@ classes: wide
 ---
 
 <section class="portfolio-hero">
-  <h1>Analytics for clearer and efficient decisions.</h1>
+  <h1>Analytics for clearer commercial and operational decisions.</h1>
   <p class="hero-summary">Hi, I'm Yahan. With 5 years of experience across ecommerce and healthcare, I turn recurring questions and fragmented data into priorities leaders can act on.</p>
   <a class="hero-text-link" href="#selected-work">View featured work <span>↓</span></a>
 </section>
 
 <section class="project-feature" id="selected-work">
   <div class="project-feature__copy">
-    <p class="feature-label"><span>01</span> Ecommerce Analytics Command Center</p>
+    <p class="feature-label"><span>01</span> FEATURED CASE STUDY</p>
     <h2>Ecommerce Analytics<br>Command Center</h2>
     <p class="feature-statement">A repeatable management workflow that makes it easier to spot what changed, find the cause, and decide what to do next.</p>
     <div class="feature-actions">
@@ -24,9 +24,27 @@ classes: wide
   </div>
 
   <div class="project-feature__visual">
-    <div class="browser-frame">
-      <div class="browser-bar"><i></i><i></i><i></i><span>Executive Overview</span></div>
-      <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce performance signals and priorities">
+    <div class="feature-dashboard-grid" aria-label="Command center analysis views">
+      <figure class="feature-dashboard-card feature-dashboard-card--overview">
+        <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and operating priorities">
+        <figcaption>Overview</figcaption>
+      </figure>
+      <figure class="feature-dashboard-card">
+        <img src="/materials/ecommerce-command-center/executive-04-alerts.png" alt="Sessions, conversion, and return-rate monitoring" loading="lazy">
+        <figcaption>Sessions</figcaption>
+      </figure>
+      <figure class="feature-dashboard-card">
+        <img src="/materials/ecommerce-command-center/revenue-03-profit-effort.png" alt="Profit-to-effort assortment tradeoff analysis" loading="lazy">
+        <figcaption>Tradeoff</figcaption>
+      </figure>
+      <figure class="feature-dashboard-card">
+        <img src="/materials/ecommerce-command-center/marketing-03-ai-support.png" alt="Customer segmentation for campaign planning" loading="lazy">
+        <figcaption>Segmentation</figcaption>
+      </figure>
+      <figure class="feature-dashboard-card">
+        <img src="/materials/ecommerce-command-center/relocation-scenario.png" alt="Store relocation break-even scenario" loading="lazy">
+        <figcaption>Scenario</figcaption>
+      </figure>
     </div>
   </div>
 
