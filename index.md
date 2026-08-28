@@ -1,4 +1,3 @@
----
 layout: single
 title: ""
 permalink: /
@@ -24,9 +23,9 @@ classes: wide
   </div>
 
   <div class="project-feature__visual">
-    <div class="feature-dashboard-grid feature-dashboard-grid--autoplay" role="region" aria-label="Command center analysis views rotating every two seconds" tabindex="0">
+    <div class="feature-dashboard-grid feature-dashboard-grid--mosaic" aria-label="Five command center analysis views">
       <figure class="feature-dashboard-card feature-dashboard-card--overview">
-        <img src="/materials/ecommerce-command-center/Overview.png" alt="Executive Overview showing ecommerce KPIs and operating priorities">
+        <img src="/materials/ecommerce-command-center/executive-overview.png" alt="Executive Overview showing ecommerce KPIs and operating priorities">
         <figcaption>Overview</figcaption>
       </figure>
       <figure class="feature-dashboard-card">
@@ -68,64 +67,3 @@ classes: wide
   <h2>Let's connect.</h2>
   <p>For analytics opportunities and project conversations: <a href="mailto:yangyahan0321@gmail.com">yangyahan0321@gmail.com</a> · <a href="https://github.com/amber-y321">GitHub</a></p>
 </section>
-
-<script>
-  (() => {
-    const initializeCarousel = () => {
-      const carousel = document.querySelector('.feature-dashboard-grid--autoplay');
-      if (!carousel) return;
-
-      const slides = Array.from(carousel.querySelectorAll('.feature-dashboard-card'));
-      if (slides.length < 2) return;
-
-      let currentIndex = 0;
-      let intervalId;
-      let scrollUpdateId;
-
-      const stop = () => {
-        if (intervalId) window.clearInterval(intervalId);
-        intervalId = undefined;
-      };
-
-      const show = (index) => {
-        currentIndex = (index + slides.length) % slides.length;
-        carousel.scrollTo({ left: slides[currentIndex].offsetLeft, behavior: 'smooth' });
-      };
-
-      const start = () => {
-        stop();
-        intervalId = window.setInterval(() => show(currentIndex + 1), 2000);
-      };
-
-      carousel.addEventListener('mouseenter', stop);
-      carousel.addEventListener('mouseleave', start);
-      carousel.addEventListener('focusin', stop);
-      carousel.addEventListener('focusout', (event) => {
-        if (!carousel.contains(event.relatedTarget)) start();
-      });
-      carousel.addEventListener('scroll', () => {
-        window.clearTimeout(scrollUpdateId);
-        scrollUpdateId = window.setTimeout(() => {
-          currentIndex = slides.reduce((closest, slide, index) => {
-            const currentDistance = Math.abs(slides[closest].offsetLeft - carousel.scrollLeft);
-            const nextDistance = Math.abs(slide.offsetLeft - carousel.scrollLeft);
-            return nextDistance < currentDistance ? index : closest;
-          }, 0);
-        }, 120);
-      }, { passive: true });
-      document.addEventListener('visibilitychange', () => {
-        if (document.hidden) stop();
-        else if (!carousel.matches(':hover')) start();
-      });
-
-      show(0);
-      start();
-    };
-
-    if (document.readyState === 'loading') {
-      document.addEventListener('DOMContentLoaded', initializeCarousel, { once: true });
-    } else {
-      initializeCarousel();
-    }
-  })();
-</script>
