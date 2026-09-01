@@ -18,7 +18,7 @@ classes: wide
     <h2>Ecommerce Analytics<br>Command Center</h2>
     <p class="feature-statement">A repeatable management workflow that makes it easier to spot what changed, find the cause, and decide what to do next.</p>
     <div class="feature-actions">
-      <a class="button button--light" href="/projects/ecommerce-command-center/">View the 90-second case</a>
+      <a class="button button--light" href="/projects/ecommerce-command-center/">View the whole case</a>
       <a class="feature-link" href="https://ecommerceanalytics-mdjdkr9yopuaqjaddvujmg.streamlit.app/" target="_blank" rel="noopener">Open live dashboard ↗</a>
     </div>
   </div>
